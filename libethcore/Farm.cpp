@@ -534,11 +534,12 @@ void Farm::submitProofAsync_frk(Solution const& _s) {
 #endif
     const uint64_t targ = (uint64_t)(u64)(u256)_s.work.boundary;
     const uint64_t hea = (uint64_t)(u64)(u256)r.value;
-    if (r.value > _s.work.boundary) {
+    if (r.value > _s.work.boundary && 0) {
     //if (hea > targ) {
         accountSolution(_s.midx, SolutionAccountingEnum::Failed);
         cwarn << "GPU " << _s.midx << " gave incorrect result: target " << targ << " header" << hea ;
-        return;
+	stop();
+        //return;
     }
     m_onSolutionFound(Solution{_s.nonce, r.mixHash, _s.work, _s.tstamp, _s.midx});
 
