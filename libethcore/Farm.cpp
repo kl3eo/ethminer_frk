@@ -539,7 +539,7 @@ void Farm::submitProofAsync_frk(Solution const& _s) {
     //if (hea > targ) {
        // accountSolution(_s.midx, SolutionAccountingEnum::Failed);
         //cwarn << "GPU " << _s.midx << " gave incorrect result: target " << targ << " header" << hea ;
-	//cwarn << "GPU " << _s.midx << " gave incorrect result: target " << _s.work.boundary << " header" << r.value ;
+	cwarn << "GPU " << _s.midx << " gave incorrect result: target " << _s.work.boundary << " header " << r.value ;
 	stop();
         //return;
     }

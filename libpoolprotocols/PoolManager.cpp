@@ -42,7 +42,7 @@ PoolManager::PoolManager(PoolSettings _settings)
         if (p_client && p_client->isConnected())
         {
             p_client->submitSolution(sol);
-cnote << string(EthOrange "Solution 0x") + toHex(sol.nonce) << "submitted by PM Farm...";
+cnote << string(EthOrange "Solution 0x") + toHex(sol.nonce) << " submitted by PM Farm...";
         }
         else
         {
