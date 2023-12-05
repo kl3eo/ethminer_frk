@@ -496,8 +496,8 @@ struct SearchResults_frk
     uint hashCount;
     volatile uint abort;
     uint gid[MAX_OUTPUTS];
-    ulong targ;
-    ulong hea;
+    //ulong targ;
+    //ulong hea;
 };
 
 
@@ -550,7 +550,7 @@ __attribute__((reqd_work_group_size(WORKSIZE, 1, 1))) __kernel void search_frk(
     state[22] = (uint2)(0);
     state[23] = (uint2)(0);
     state[24] = (uint2)(0);
-
+/*
     for (int pass = 0; pass < 2; ++pass)
     {
         // Process Keccak-512 first
@@ -589,16 +589,21 @@ __attribute__((reqd_work_group_size(WORKSIZE, 1, 1))) __kernel void search_frk(
 
     // Process Keccak-256 with 5 rounds and an output size of 8.
     KECCAK_PROCESS(state, 5, 8);
+*/    
+    KECCAK_PROCESS(state, 25, 25);
+    KECCAK_PROCESS(state, 25, 25);
 
     if (get_local_id(0) == 0)
         atomic_inc(&g_output->hashCount);
     	
-    if (as_ulong(as_uchar8(state[0]).s76543210) <= target)
+    //if (as_ulong(as_uchar8(state[0]).s76543210) <= target)
+    if (as_ulong(state[0]) <= target)
     {
         atomic_inc(&g_output->abort);
         uint slot = min(MAX_OUTPUTS - 1u, atomic_inc(&g_output->count));
         g_output->gid[slot] = gid;
 	g_output->targ = target;
-	g_output->hea = as_ulong(as_uchar8(state[0]).s76543210);
+	//g_output->hea = as_ulong(as_uchar8(state[0]).s76543210);
+	g_output->hea = as_ulong(state[0]);
     }
 }

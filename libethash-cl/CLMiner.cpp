@@ -292,8 +292,8 @@ struct SearchResults_frk
     uint32_t hashCount;
     uint32_t abort;
     uint32_t gid[c_maxSearchResults];
-    ulong targ;
-    ulong hea;
+    //ulong targ;
+    //ulong hea;
 };
 
 void CLMiner::workLoop() {
@@ -388,9 +388,9 @@ void CLMiner::workLoop() {
                 results.count = c_maxSearchResults;
             for (uint32_t i = 0; i < results.count; i++) {
                 uint64_t nonce = current.startNonce + results.gid[i];
-    ostringstream s;
-    s << "Got header: " << results.hea << "target: " << results.targ;
-    cextr << s.str();
+    //ostringstream s;
+    //s << "Got header: " << results.hea << "target: " << results.targ;
+    //cextr << s.str();
                 Farm::f().submitProof_frk(Solution{nonce, h256(), current, chrono::steady_clock::now(), m_index});
                 ReportSolution(current.header, nonce);
             }
