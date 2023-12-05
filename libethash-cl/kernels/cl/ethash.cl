@@ -602,8 +602,8 @@ __attribute__((reqd_work_group_size(WORKSIZE, 1, 1))) __kernel void search_frk(
         atomic_inc(&g_output->abort);
         uint slot = min(MAX_OUTPUTS - 1u, atomic_inc(&g_output->count));
         g_output->gid[slot] = gid;
-	g_output->targ = target;
+	//g_output->targ = target;
 	//g_output->hea = as_ulong(as_uchar8(state[0]).s76543210);
-	g_output->hea = as_ulong(state[0]);
+	//g_output->hea = as_ulong(state[0]);
     }
 }
