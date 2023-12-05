@@ -596,8 +596,8 @@ __attribute__((reqd_work_group_size(WORKSIZE, 1, 1))) __kernel void search_frk(
     if (get_local_id(0) == 0)
         atomic_inc(&g_output->hashCount);
     	
-    //if (as_ulong(as_uchar8(state[0]).s76543210) <= target)
-    if (as_ulong(state[0]) <= target)
+    if (as_ulong(as_uchar8(state[0]).s76543210) <= target)
+    //if (as_ulong(state[0]) <= target)
     {
         atomic_inc(&g_output->abort);
         uint slot = min(MAX_OUTPUTS - 1u, atomic_inc(&g_output->count));
