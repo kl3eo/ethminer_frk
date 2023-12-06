@@ -22,7 +22,7 @@ namespace eth
 // WARNING: Do not change the value of the following constant
 // unless you are prepared to make the neccessary adjustments
 // to the assembly code for the binary kernels.
-const size_t c_maxSearchResults = 1;
+const size_t c_maxSearchResults = 4;
 
 struct CLChannel : public LogChannel
 {
