@@ -556,7 +556,7 @@ void EthGetworkClient::submitSolution(const Solution& solution)
         jReq["params"].append("0x" + solution.work.header.hex());
         jReq["params"].append("0x" + solution.mixHash.hex());
         send(jReq);
-cnote << string(EthOrange "Solution 0x") + nonceHex << " submitted by client...";
+cnote << string(EthOrange "Solution 0x") + nonceHex << " submitted by client.";
     }
 
 }

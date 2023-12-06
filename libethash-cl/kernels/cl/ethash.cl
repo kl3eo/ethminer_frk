@@ -498,7 +498,6 @@ struct SearchResults_frk
     uint gid[MAX_OUTPUTS];
     ulong sol_targ;
     ulong sol_hea;
-    ulong sol_hea2;
 };
 
 
@@ -551,61 +550,40 @@ __attribute__((reqd_work_group_size(WORKSIZE, 1, 1))) __kernel void search_frk(
     state[22] = (uint2)(0);
     state[23] = (uint2)(0);
     state[24] = (uint2)(0);
-/*
-    for (int pass = 0; pass < 2; ++pass)
-    {
-        // Process Keccak-512 first
-        KECCAK_PROCESS(state, 25, 25);
-
-        if (pass > 0)
-            break;
-
-        state[12] = as_uint2(0x0000000000000001UL);
-        state[13] = (uint2)(0);
-        state[14] = (uint2)(0);
-        state[15] = (uint2)(0);
-        state[16] = as_uint2(0x8000000000000000UL);
-        state[17] = (uint2)(0);
-        state[18] = (uint2)(0);
-        state[19] = (uint2)(0);
-        state[20] = (uint2)(0);
-        state[21] = (uint2)(0);
-        state[22] = (uint2)(0);
-        state[23] = (uint2)(0);
-        state[24] = (uint2)(0);
-
-    }
-
-    // Extract the Keccak-512 result into 'keccak512_result'
-    uint2 keccak512_result[25];
-    for (int i = 0; i < 25; ++i)
-    {
-        keccak512_result[i] = state[i];
-    }
-
-    // Set up 'state' array with Keccak-512 result and process it with Keccak-256.
-    for (int i = 0; i < 25; ++i)
-    {
-        state[i] = keccak512_result[i];
-    }
-
-    // Process Keccak-256 with 5 rounds and an output size of 8.
-    KECCAK_PROCESS(state, 25, 8);
-*/   
-    KECCAK_PROCESS(state, 25, 25);
+    
+    // Process Keccak-512
     KECCAK_PROCESS(state, 25, 25);
 
+    state[8] = as_uint2(0x0000000000000001UL);
+    state[9] = (uint2)(0);
+    state[10] = (uint2)(0);
+    state[11] = (uint2)(0);    
+    state[12] = (uint2)(0);
+    state[13] = (uint2)(0);
+    state[14] = (uint2)(0);
+    state[15] = (uint2)(0);
+    state[16] = as_uint2(0x8000000000000000UL);
+    state[17] = (uint2)(0);
+    state[18] = (uint2)(0);
+    state[19] = (uint2)(0);
+    state[20] = (uint2)(0);
+    state[21] = (uint2)(0);
+    state[22] = (uint2)(0);
+    state[23] = (uint2)(0);
+    state[24] = (uint2)(0);
+
+    // Process Keccak-256
+    KECCAK_PROCESS(state, 25, 25);
+   
     if (get_local_id(0) == 0)
         atomic_inc(&g_output->hashCount);
     	
-    if (as_ulong(as_uchar8(state[0]).s76543210) <= target || 1)
-    //if (as_ulong(state[0]) <= target)
+    if (as_ulong(as_uchar8(state[0]).s76543210) <= target)
     {
         atomic_inc(&g_output->abort);
         uint slot = min(MAX_OUTPUTS - 1u, atomic_inc(&g_output->count));
         g_output->gid[slot] = gid;
 	g_output->sol_targ = target;
 	g_output->sol_hea = as_long(as_uchar8(state[0]).s76543210);
-	g_output->sol_hea2 = as_ulong(state[0]);
     }
 }
