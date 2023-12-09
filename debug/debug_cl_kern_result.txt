@@ -1,0 +1,1426 @@
+
+w.header 256bits = 32bytes
+196d6e55876ae404b1654a32ac026ef09a4c724305d45f2a4f45702ade90f27d
+
+00000015798ee230 = 92233720368
+8c39df9fb841a566
+d74f87a7a9a7aeb0
+2c2d2f8e0d1e768d
+
+c402e64507cf00b2
+
+
+-- dec 06
+
+root@corfu build]# /usr/local/bin/ethminer_frk -G -P http://127.0.0.1:9656
+
+
+ethminer 0.19.0
+Build: linux/release/gnu
+
+ i 11:15:08 ethminer_frk Configured pool 127.0.0.1:9656
+ i 11:15:08 ethminer_frk Selected pool 127.0.0.1:9656
+ i 11:15:08 ethminer_frk Established connection to 127.0.0.1:9656
+ i 11:15:08 ethminer_frk Spinning up miners...
+.. 11:15:08 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 11:15:08 ethminer_frk Epoch : 284 Difficulty : 181.54 Gh
+ i 11:15:08 ethminer_frk Job: 94e75185\u2026 127.0.0.1:9656
+cl 11:15:10 cl-0     OpenCL frk kernel
+.. 11:15:11 cl-0     Start search with header: 94e75185b003392e578acc2e280e7593b47a7846c15dfcbcad77f410c82339ef boundary: 00000000060e71a18facc5a6577e6e99c202e17c97e5befbf041e1a2a2c545e5 startNonce: 12894472215861932616
+.. 11:15:11 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16705766100317500955 as_ulong(rshift192(w.boundary)): 101609889 as 8 bytes from kejjak: e7d6cdc1de2ff61b 8 bytes boundary: 60e71a1
+ i 11:15:11 cl-0     Job: 94e75185\u2026 Solution: 0xb2f25e29989847c4
+ X 11:15:11 ethminer_frk GPU 0 gave incorrect result: target 0000000060e071a18facc5a6577e6e99c220e17c97e5befbf041e1a2a2c545e5 header e7d6cdc1de2ff61b93d89bd1905b3f4d2f9b275916edc311abf01627306d7015
+.. 11:15:11 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 368267418995828828 as_ulong(rshift192(w.boundary)): 101609889 as 8 bytes from kejjak: 51c59443398a85c 8 bytes boundary: 60e71a1
+ i 11:15:11 cl-0     Job: 94e75185\u2026 Solution: 0xb2f25e29995b9384
+ i 11:15:11 ethminer_frk Solution 0xb2f25e29989847c4 submitted by client...
+ i 11:15:11 ethminer_frk Solution 0xb2f25e29989847c4 submitted by PM Farm...
+ i 11:15:11 ethminer_frk Solution difficulty: 1.00 h
+ X 11:15:11 ethminer_frk GPU 0 gave incorrect result: target 0000000060e071a18facc5a6577e6e99c220e17c97e5befbf041e1a2a2c545e5 header e23c9a80cbee5c10e3ff60ae7db33034bb5e742fa83c6c2414e589f55b34a76c
+ i 11:15:11 ethminer_frk Solution 0xb2f25e29995b9384 submitted by client...
+ i 11:15:11 ethminer_frk Solution 0xb2f25e29995b9384 submitted by PM Farm...
+ i 11:15:11 ethminer_frk Solution difficulty: 1.00 h
+ X 11:15:11 ethminer_frk **Rejected   0 ms. 127.0.0.1:9656
+ X 11:15:11 ethminer_frk **Rejected   0 ms. 127.0.0.1:9656
+ m 11:15:13 ethminer_frk 0:00 A0:R2 0.00 h - cl0 0.00
+^C i 11:15:14 main     Got interrupt ...
+ i 11:15:14 main     Disconnected from 127.0.0.1:9656
+ i 11:15:14 main     Terminated!
+
+
+ i 23:15:27 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:15:27 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:15:27 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:15:27 ethminer_frk Spinning up miners...
+.. 23:15:27 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:15:27 ethminer_frk Epoch : 284 Difficulty : 189.20 Gh
+ i 23:15:27 ethminer_frk Job: e8dfc7cf\u2026 127.0.0.1:9656
+cl 23:15:29 cl-0     OpenCL frk kernel
+.. 23:15:30 cl-0     Start search with header: e8dfc7cf93a8f577a5dd98de33f5054be77a04807d5539d686aa4d72527fd8d0 boundary: 0000000005cfafc5dbcefd02fc2dc4150a90c70aa8439d1f2b496988df32a1d9 startNonce: 14883677471411023994
+.. 23:15:30 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11764873751190260777 as_ulong(rshift192(w.boundary)): 97497029 as 8 bytes from kejjak: a3453a57ff034c29 8 bytes boundary: 5cfafc5
+ i 23:15:30 cl-0     Job: e8dfc7cf\u2026 Solution: 0xce8d71cd9af033ba
+.. 23:15:30 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11764873751190260777 as_ulong(rshift192(w.boundary)): 97497029 as 8 bytes from kejjak: a3453a57ff034c29 8 bytes boundary: 5cfafc5
+ X 23:15:30 ethminer_frk GPU 0 gave incorrect result: target 0000000050cfafc5dbcefd20fc2dc415a090c7a0a8439d1f2b496988df32a1d9 header 66e065c92f7d11544d4dd0b623c055bdc5a1dc7bc0db7e2f4066a9edd96437ec
+ i 23:15:30 cl-0     Job: e8dfc7cf\u2026 Solution: 0xce8d71cd9af033bb
+.. 23:15:30 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11764873751190260777 as_ulong(rshift192(w.boundary)): 97497029 as 8 bytes from kejjak: a3453a57ff034c29 8 bytes boundary: 5cfafc5
+ i 23:15:30 cl-0     Job: e8dfc7cf\u2026 Solution: 0xce8d71cd9af033bc
+.. 23:15:30 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11764873751190260777 as_ulong(rshift192(w.boundary)): 97497029 as 8 bytes from kejjak: a3453a57ff034c29 8 bytes boundary: 5cfafc5
+ i 23:15:30 cl-0     Job: e8dfc7cf\u2026 Solution: 0xce8d71cd9af04fb6
+ X 23:15:30 ethminer_frk GPU 0 gave incorrect result: target 0000000050cfafc5dbcefd20fc2dc415a090c7a0a8439d1f2b496988df32a1d9 header f0166f2688507cc0bd3358d54e3bc5ef36fc906df447b39dd08246cffbe350da
+ X 23:15:30 ethminer_frk GPU 0 gave incorrect result: target 0000000050cfafc5dbcefd20fc2dc415a090c7a0a8439d1f2b496988df32a1d9 header f8a1f7908ecdf3e55d76ae605695c8347240bc5dfbab4ba5d21940b34d4cc531
+ X 23:15:30 ethminer_frk GPU 0 gave incorrect result: target 0000000050cfafc5dbcefd20fc2dc415a090c7a0a8439d1f2b496988df32a1d9 header a3453a57ff304c2960d15fae63801f21fbaa9074eaf9982f78acb440c66afe32
+ m 23:15:32 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+ m 23:15:37 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 23:15:38 main     Got interrupt ...
+ i 23:15:38 main     Disconnected from 127.0.0.1:9656
+ i 23:15:38 main     Terminated!
+
+a3453a57ff034c29
+a3453a57ff304c29
+
+
+=======
+
+
+.. 23:19:51 cl-0     Start search with header: 271d7f43b9bde89fd4801230ccc8fc1145a3962124949ea8434b5771fb7da48f boundary: 0000000005bb859c607de9a90c2d0aebdae96c6417d6eafe074fb74efb53cfc2 startNonce: 14524976514377907181
+.. 23:19:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 4920719302169883585 as_ulong(rshift192(w.boundary)): 96175516 as 8 bytes from kejjak: 4449e8225d3e73c1 8 bytes boundary: 5bb859c
+ i 23:19:51 cl-0     Job: 271d7f43\u2026 Solution: 0xc993152ee663086d
+.. 23:19:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 4920719302169883585 as_ulong(rshift192(w.boundary)): 96175516 as 8 bytes from kejjak: 4449e8225d3e73c1 8 bytes boundary: 5bb859c
+ X 23:19:51 ethminer_frk GPU 0 gave incorrect result: target 0000000050bb859c607de9a9c02da0ebdae96c6417d6eafe704fb74efb53cfc2 header 3918f23491b2e2f22663626bd0e235795f216a2cb777ca26fdf4192862ffa8c8
+ i 23:19:51 cl-0     Job: 271d7f43\u2026 Solution: 0xc993152ee663086e
+.. 23:19:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 4920719302169883585 as_ulong(rshift192(w.boundary)): 96175516 as 8 bytes from kejjak: 4449e8225d3e73c1 8 bytes boundary: 5bb859c
+ i 23:19:51 cl-0     Job: 271d7f43\u2026 Solution: 0xc993152ee663086f
+.. 23:19:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 4920719302169883585 as_ulong(rshift192(w.boundary)): 96175516 as 8 bytes from kejjak: 4449e8225d3e73c1 8 bytes boundary: 5bb859c
+ i 23:19:51 cl-0     Job: 271d7f43\u2026 Solution: 0xc993152ee6631229
+ X 23:19:51 ethminer_frk GPU 0 gave incorrect result: target 0000000050bb859c607de9a9c02da0ebdae96c6417d6eafe704fb74efb53cfc2 header a49d5796e2c7fbd2f87bef155af920f87e64fae2f01f4f727bee6b46796b2cb4
+ X 23:19:51 ethminer_frk GPU 0 gave incorrect result: target 0000000050bb859c607de9a9c02da0ebdae96c6417d6eafe704fb74efb53cfc2 header 104572b7538b70bc43d56093131ca27b50e3ce806e877497d6b222f52fb49caa
+ X 23:19:51 ethminer_frk GPU 0 gave incorrect result: target 0000000050bb859c607de9a9c02da0ebdae96c6417d6eafe704fb74efb53cfc2 header 4449e8225d3e73c1c91e5b2cda26155fb9b5a7457abc5a499aa590169ee04f7d
+ m 23:19:53 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+ i 23:19:55 ethminer_frk Epoch : 284 Difficulty : 192.17 Gh
+ i 23:19:55 ethminer_frk Job: dfa67e9b\u2026 127.0.0.1:9656
+ i 23:19:58 ethminer_frk Epoch : 284 Difficulty : 192.55 Gh
+ i 23:19:58 ethminer_frk Job: 2cf536dd\u2026 127.0.0.1:9656
+ m 23:19:58 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+ m 23:20:03 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+ m 23:20:08 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+ m 23:20:13 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 23:20:16 main     Got interrupt ...
+ i 23:20:16 main     Disconnected from 127.0.0.1:9656
+ i 23:20:16 main     Terminated!
+
+4449e8225d3e73c1
+4449e8225d3e73c1c91e5b2cda26155fb9b5a7457abc5a499aa590169ee04f7d
+
+.. 23:22:14 cl-0     Start search with header: 1b458a8009f4ace1bf7bfc7ed733b227bd13cab03ad43a2ba656493188bd97e7 boundary: 0000000005a4cac81aff860c3c42c27b971fb9b1538bc6966668848be565037e startNonce: 2547886435792073719
+.. 23:22:14 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5157070137724470133 as_ulong(rshift192(w.boundary)): 94685896 as 8 bytes from kejjak: 479197f788d78375 8 bytes boundary: 5a4cac8
+ i 23:22:14 cl-0     Job: 1b458a80\u2026 Solution: 0x235be936cd6c34b7
+.. 23:22:14 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5157070137724470133 as_ulong(rshift192(w.boundary)): 94685896 as 8 bytes from kejjak: 479197f788d78375 8 bytes boundary: 5a4cac8
+ X 23:22:14 ethminer_frk GPU 0 gave incorrect result: target 0000000050a4cac81aff86c03c42c27b971fb9b1538bc6966668848be565307e header 378ea7761fee54df8e5d63dd675c14519db514e16eb6f2647426c0d5733543ac
+ i 23:22:14 cl-0     Job: 1b458a80\u2026 Solution: 0x235be936cd6c34b8
+.. 23:22:14 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5157070137724470133 as_ulong(rshift192(w.boundary)): 94685896 as 8 bytes from kejjak: 479197f788d78375 8 bytes boundary: 5a4cac8
+ i 23:22:14 cl-0     Job: 1b458a80\u2026 Solution: 0x235be936cd6c34b9
+.. 23:22:14 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5157070137724470133 as_ulong(rshift192(w.boundary)): 94685896 as 8 bytes from kejjak: 479197f788d78375 8 bytes boundary: 5a4cac8
+ i 23:22:14 cl-0     Job: 1b458a80\u2026 Solution: 0x235be936cd6c4973
+ X 23:22:14 ethminer_frk GPU 0 gave incorrect result: target 0000000050a4cac81aff86c03c42c27b971fb9b1538bc6966668848be565307e header 50513c6870ace58088393e308341bdbc99701aa78b71217dd0ceff401836a074
+ X 23:22:14 ethminer_frk GPU 0 gave incorrect result: target 0000000050a4cac81aff86c03c42c27b971fb9b1538bc6966668848be565307e header c027a416f5528b4db684cd50a0bfe358d515449dc3827550176228eae1702056
+ X 23:22:14 ethminer_frk GPU 0 gave incorrect result: target 0000000050a4cac81aff86c03c42c27b971fb9b1538bc6966668848be565307e header 479197f788d783753d985ac0982d9fd2af64702b00828890388c30e3aa43e7b8
+ m
+ 
+ .. 23:23:20 cl-0     Start search with header: 7697b4abcfbd6164b5a9f1cd737033ea4c389513c937e4868aad85f0a6cd9ddc boundary: 00000000059c5d6dc7bc75d07a4354ba57861eee19f9dab3bf65c2daf77e7dc9 startNonce: 16509572740781776312
+.. 23:23:20 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6970273022250251343 as_ulong(rshift192(w.boundary)): 94133613 as 8 bytes from kejjak: 60bb626236b6f44f 8 bytes boundary: 59c5d6d
+ i 23:23:20 cl-0     Job: 7697b4ab\u2026 Solution: 0xe51dc8efafc52c78
+ X 23:23:20 ethminer_frk GPU 0 gave incorrect result: target 00000000509c5d6dc7bc75d07a4354ba57861eee19f9dab3bf65c2daf77e7dc9 header 709df0475e7a2eed94b7901bdad9c5705581f22526b226f4da7e4a795d5d6d21
+.. 23:23:20 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6970273022250251343 as_ulong(rshift192(w.boundary)): 94133613 as 8 bytes from kejjak: 60bb626236b6f44f 8 bytes boundary: 59c5d6d
+ i 23:23:20 cl-0     Job: 7697b4ab\u2026 Solution: 0xe51dc8efafc52c79
+.. 23:23:20 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6970273022250251343 as_ulong(rshift192(w.boundary)): 94133613 as 8 bytes from kejjak: 60bb626236b6f44f 8 bytes boundary: 59c5d6d
+ i 23:23:20 cl-0     Job: 7697b4ab\u2026 Solution: 0xe51dc8efafc52c7a
+.. 23:23:20 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6970273022250251343 as_ulong(rshift192(w.boundary)): 94133613 as 8 bytes from kejjak: 60bb626236b6f44f 8 bytes boundary: 59c5d6d
+ i 23:23:20 cl-0     Job: 7697b4ab\u2026 Solution: 0xe51dc8efafc53a34
+ X 23:23:20 ethminer_frk GPU 0 gave incorrect result: target 00000000509c5d6dc7bc75d07a4354ba57861eee19f9dab3bf65c2daf77e7dc9 header ba2dd1ca2d51538589df78d100127948756fa3338085f6215e34a57117e93d23
+ X 23:23:20 ethminer_frk GPU 0 gave incorrect result: target 00000000509c5d6dc7bc75d07a4354ba57861eee19f9dab3bf65c2daf77e7dc9 header 6c5a643468c44d8efa206a4016b320d4d2531cd345b748a0b4db3d1ad1e5edbb
+ X 23:23:20 ethminer_frk GPU 0 gave incorrect result: target 00000000509c5d6dc7bc75d07a4354ba57861eee19f9dab3bf65c2daf77e7dc9 header 1a498148d3f814243af94bbcf4af37e34c6425668ee58f252ea880f24e18982b
+
+
+60bb626236b6f44f
+
+
+ i 23:25:14 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:25:14 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:25:14 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:25:14 ethminer_frk Spinning up miners...
+.. 23:25:14 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:25:14 ethminer_frk Epoch : 284 Difficulty : 195.20 Gh
+ i 23:25:14 ethminer_frk Job: fe144b9c\u2026 127.0.0.1:9656
+cl 23:25:16 cl-0     OpenCL frk kernel
+.. 23:25:17 cl-0     Start search with header: fe144b9c304fd51244ab33064b37bb6fcbdcb9c637f4bf38c60dc1275806a01b boundary: 0000000005a1fe034b3f0336a85958b8df90070db803f65c35b67b046b6a6f1d startNonce: 889741673656649874
+.. 23:25:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18401997657358560937 as_ulong(rshift192(w.boundary)): 94502403 as 8 bytes from kejjak: ff61075f146d6ea9 8 bytes boundary: 5a1fe03
+ i 23:25:17 cl-0     Job: fe144b9c\u2026 Solution: 0x0c58ff56902a8fd2
+.. 23:25:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18401997657358560937 as_ulong(rshift192(w.boundary)): 94502403 as 8 bytes from kejjak: ff61075f146d6ea9 8 bytes boundary: 5a1fe03
+ i 23:25:17 cl-0     Job: fe144b9c\u2026 Solution: 0x0c58ff56902a8fd3
+.. 23:25:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18401997657358560937 as_ulong(rshift192(w.boundary)): 94502403 as 8 bytes from kejjak: ff61075f146d6ea9 8 bytes boundary: 5a1fe03
+ i 23:25:17 cl-0     Job: fe144b9c\u2026 Solution: 0x0c58ff56902a8fd4
+.. 23:25:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18401997657358560937 as_ulong(rshift192(w.boundary)): 94502403 as 8 bytes from kejjak: ff61075f146d6ea9 8 bytes boundary: 5a1fe03
+ X 23:25:17 ethminer_frk GPU 0 gave incorrect result: target 0000000050a1fe304b3f3036a85958b8df9070d0b830f65c35b67b406b6a6f1d header 5f4d6bffc1fd5de136c160f0bbc022e0c8e28ca9f42c7f23b0f6376358f0bf85
+ i 23:25:17 cl-0     Job: fe144b9c\u2026 Solution: 0x0c58ff56902aa50e
+ X 23:25:17 ethminer_frk GPU 0 gave incorrect result: target 0000000050a1fe304b3f3036a85958b8df9070d0b830f65c35b67b406b6a6f1d header 31536dad2d1d382a39889eca693e95a58522d0ad89564f33b29c5053ee3e2618
+ X 23:25:17 ethminer_frk GPU 0 gave incorrect result: target 0000000050a1fe304b3f3036a85958b8df9070d0b830f65c35b67b406b6a6f1d header 1a19e2d277cf12653bca1730d0e58f3da6295bd5b41f4bd296ac5f424cf815b0
+ X 23:25:17 ethminer_frk GPU 0 gave incorrect result: target 0000000050a1fe304b3f3036a85958b8df9070d0b830f65c35b67b406b6a6f1d header ff61705f146d6ea9e39be5ab807cd1c15557f930f013f1b9b5cd4e1862dfbcd5
+ m 23:25:19 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 23:25:21 main     Got interrupt ...
+ i 23:25:21 main     Disconnected from 127.0.0.1:9656
+ i 23:25:21 main     Terminated!
+
+ff61075f146d6ea9
+ff61705f146d6ea9
+
+i 23:27:30 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:27:30 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:27:30 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:27:30 ethminer_frk Spinning up miners...
+.. 23:27:30 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:27:30 ethminer_frk Epoch : 284 Difficulty : 196.34 Gh
+ i 23:27:30 ethminer_frk Job: 01e3d261\u2026 127.0.0.1:9656
+cl 23:27:32 cl-0     OpenCL frk kernel
+.. 23:27:33 cl-0     Start search with header: 01e3d261c2523a66a7a1b227e054affcb217c6d7c2dd196acf2ca69298424612 boundary: 00000000059994d8a373f427e932e406060a95146e644c8e9bb7bb952e6ad58a startNonce: 11874451872492765087
+.. 23:27:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17569598922735642070 as_ulong(rshift192(w.boundary)): 93951192 as 8 bytes from kejjak: f3d3c121ebbe65d6 8 bytes boundary: 59994d8
+ i 23:27:33 cl-0     Job: 01e3d261\u2026 Solution: 0xa4ca87108267425f
+.. 23:27:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17569598922735642070 as_ulong(rshift192(w.boundary)): 93951192 as 8 bytes from kejjak: f3d3c121ebbe65d6 8 bytes boundary: 59994d8
+ i 23:27:33 cl-0     Job: 01e3d261\u2026 Solution: 0xa4ca871082674260
+.. 23:27:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17569598922735642070 as_ulong(rshift192(w.boundary)): 93951192 as 8 bytes from kejjak: f3d3c121ebbe65d6 8 bytes boundary: 59994d8
+ i 23:27:33 cl-0     Job: 01e3d261\u2026 Solution: 0xa4ca871082674261
+ X 23:27:33 ethminer_frk GPU 0 gave incorrect result: target 00000000509994d8a373f427e932e46060a095146e644c8e9bb7bb952e6ad58a header e5d32ed3fca04c88e54abdc0947024ecdf6efbf1f896c05f4e489b9f25903af3
+.. 23:27:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17569598922735642070 as_ulong(rshift192(w.boundary)): 93951192 as 8 bytes from kejjak: f3d3c121ebbe65d6 8 bytes boundary: 59994d8
+ i 23:27:33 cl-0     Job: 01e3d261\u2026 Solution: 0xa4ca871082675a5b
+ X 23:27:33 ethminer_frk GPU 0 gave incorrect result: target 00000000509994d8a373f427e932e46060a095146e644c8e9bb7bb952e6ad58a header 62c3a72041c0b110457d1d45c66a223cdddaeadfefaf40b344b9dbf08ac0a892
+ X 23:27:33 ethminer_frk GPU 0 gave incorrect result: target 00000000509994d8a373f427e932e46060a095146e644c8e9bb7bb952e6ad58a header 9cdc543ccba97854242b39bda0103e5170fe446a5f7711e8879da46dbccbaecd
+ X 23:27:33 ethminer_frk GPU 0 gave incorrect result: target 00000000509994d8a373f427e932e46060a095146e644c8e9bb7bb952e6ad58a header d0be77b31264de76739e63815cc2aca81b1da1ec3e86afce70dae560dc34c0d2
+
+ i 23:28:56 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:28:56 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:28:56 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:28:56 ethminer_frk Spinning up miners...
+.. 23:28:56 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:28:56 ethminer_frk Epoch : 284 Difficulty : 197.49 Gh
+ i 23:28:56 ethminer_frk Job: 4bb6b004\u2026 127.0.0.1:9656
+cl 23:28:58 cl-0     OpenCL frk kernel
+.. 23:28:59 cl-0     Start search with header: 4bb6b00457911c2d9d61a7c57a48c0b1740911b4c3f6b6ac410e609c301b0ce5 boundary: 000000000591383d115709a7cbec57dcdaed5bc4d68a0e017f02f40532666dd0 startNonce: 14060607978081359895
+.. 23:28:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2056487075771754969 as_ulong(rshift192(w.boundary)): 93403197 as 8 bytes from kejjak: 1c8a1c19848ea9d9 8 bytes boundary: 591383d
+ i 23:28:59 cl-0     Job: 4bb6b004\u2026 Solution: 0xc3215075b3901b17
+.. 23:28:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2056487075771754969 as_ulong(rshift192(w.boundary)): 93403197 as 8 bytes from kejjak: 1c8a1c19848ea9d9 8 bytes boundary: 591383d
+ X 23:28:59 ethminer_frk GPU 0 gave incorrect result: target 000000005091383d115790a7cbec57dcdaed5bc4d68ae0107f20f45032666dd0 header 9128325f6eb79572fe30e056f2bfe9fd9612d2d44a403c4288b06a3f847c60dc
+ i 23:28:59 cl-0     Job: 4bb6b004\u2026 Solution: 0xc3215075b3901b18
+.. 23:28:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2056487075771754969 as_ulong(rshift192(w.boundary)): 93403197 as 8 bytes from kejjak: 1c8a1c19848ea9d9 8 bytes boundary: 591383d
+ i 23:28:59 cl-0     Job: 4bb6b004\u2026 Solution: 0xc3215075b3901b19
+.. 23:28:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2056487075771754969 as_ulong(rshift192(w.boundary)): 93403197 as 8 bytes from kejjak: 1c8a1c19848ea9d9 8 bytes boundary: 591383d
+ i 23:28:59 cl-0     Job: 4bb6b004\u2026 Solution: 0xc3215075b3903313
+ X 23:28:59 ethminer_frk GPU 0 gave incorrect result: target 000000005091383d115790a7cbec57dcdaed5bc4d68ae0107f20f45032666dd0 header 1895f55c8a2bb3b9b360e8701476e94df19f3f70323adaa2596e36a0157aab78
+ X 23:28:59 ethminer_frk GPU 0 gave incorrect result: target 000000005091383d115790a7cbec57dcdaed5bc4d68ae0107f20f45032666dd0 header 73eed22b7b70409450483edef7669a15ef73685876c5ad5461381bfc70495950
+ X 23:28:59 ethminer_frk GPU 0 gave incorrect result: target 000000005091383d115790a7cbec57dcdaed5bc4d68ae0107f20f45032666dd0 header 1c8a1c19848ea9d9d29947f0b61f483187db30c19670fa417bb6b951f3825340
+ m 23:29:01 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 23:29:03 main     Got interrupt ...
+ i 23:29:03 main     Disconnected from 127.0.0.1:9656
+ i 23:29:03 main     Terminated!
+
+.. 23:32:21 cl-0     Start search with header: 67bcf50e4490ab35a55472dbf633c65a7f08364bedb2c59e16a7563a871b0546 boundary: 000000000599c1f270ffbeca464766985479b354ccca535dccb8b9785414f864 startNonce: 13288108437549140263
+.. 23:32:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13136877782639168962 as_ulong(rshift192(w.boundary)): 93962738 as 8 bytes from kejjak: b64f90bdbbedcdc2 8 bytes boundary: 599c1f2
+ i 23:32:21 cl-0     Job: 67bcf50e\u2026 Solution: 0xb868d83874fccba7
+.. 23:32:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13136877782639168962 as_ulong(rshift192(w.boundary)): 93962738 as 8 bytes from kejjak: b64f90bdbbedcdc2 8 bytes boundary: 599c1f2
+ X 23:32:21 ethminer_frk GPU 0 gave incorrect result: target 000000005099c1f270ffbeca464766985479b354ccca535dccb8b9785414f864 header 8290d01fad8e58d6dd2bd4ceca4f92abb7a720853cf1d0b4ca88f5df55aa9ab7
+ i 23:32:21 cl-0     Job: 67bcf50e\u2026 Solution: 0xb868d83874fccba8
+.. 23:32:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13136877782639168962 as_ulong(rshift192(w.boundary)): 93962738 as 8 bytes from kejjak: b64f90bdbbedcdc2 8 bytes boundary: 599c1f2
+ i 23:32:21 cl-0     Job: 67bcf50e\u2026 Solution: 0xb868d83874fccba9
+.. 23:32:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13136877782639168962 as_ulong(rshift192(w.boundary)): 93962738 as 8 bytes from kejjak: b64f90bdbbedcdc2 8 bytes boundary: 599c1f2
+ i 23:32:21 cl-0     Job: 67bcf50e\u2026 Solution: 0xb868d83874fcdfa3
+ X 23:32:21 ethminer_frk GPU 0 gave incorrect result: target 000000005099c1f270ffbeca464766985479b354ccca535dccb8b9785414f864 header f9adecc3d832f7dc67f63e19fcc832f552004a3c902d28965a391000606920d6
+ X 23:32:21 ethminer_frk GPU 0 gave incorrect result: target 000000005099c1f270ffbeca464766985479b354ccca535dccb8b9785414f864 header 45988e607c4269a548f965ec14974695867e964550772d74a961f38be3b36f83
+ X 23:32:21 ethminer_frk GPU 0 gave incorrect result: target 000000005099c1f270ffbeca464766985479b354ccca535dccb8b9785414f864 header 24f9bd2f1b8266e6387980f6c22560673cbfbd6b706026187df0ba188f10a064
+ 
+ 
+ 
+ i 23:33:18 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:33:18 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:33:18 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:33:18 ethminer_frk Spinning up miners...
+.. 23:33:18 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:33:18 ethminer_frk Epoch : 284 Difficulty : 197.08 Gh
+ i 23:33:18 ethminer_frk Job: 7edec5f5\u2026 127.0.0.1:9656
+cl 23:33:20 cl-0     OpenCL frk kernel
+.. 23:33:21 cl-0     Start search with header: 7edec5f5df881455ba8f3052784fc84d27cd0ba2383a22d42b95ff9a0c9fa4a7 boundary: 0000000005942c61050f47fab52d334b875da6704c1f6d10a215201285e20362 startNonce: 3628233143830356537
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 865873405133031899 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: c0433463d6989db 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d2344ea6b9
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 865873405133031899 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: c0433463d6989db 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d2344ea6ba
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 865873405133031899 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: c0433463d6989db 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d2344ea6bb
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 865873405133031899 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: c0433463d6989db 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d2344ebc75
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header f52a6b825491db36c4d1a3769c9b6d1e2bd4a86d17cb2132fa635f973960d792
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6993405076173678924 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: 610d90dd37bee94c 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d23511f6b9
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6993405076173678924 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: 610d90dd37bee94c 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d23511f6ba
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6993405076173678924 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: 610d90dd37bee94c 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d23511f6bb
+.. 23:33:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6993405076173678924 as_ulong(rshift192(w.boundary)): 93596769 as 8 bytes from kejjak: 610d90dd37bee94c 8 bytes boundary: 5942c61
+ i 23:33:21 cl-0     Job: 7edec5f5\u2026 Solution: 0x325a12d235121235
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header a2ce2ea0f9d02671bb55b2aadc9d6e6e3478c780355e895a4d36149b9e9410ab
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header d062b846204258e014ecaa41e9ce1d6080f06931ce55c1d5dbb269166f2736de
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header c04033463d6989db17cd10654a5d9ea8b2c9fdad115bc0be591763d985316590
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header 619a8163b01518e29d7ef7d6255c436d9cf1cd9134d37fcb36814a775fb25181
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header 6f93703acda0f06cd01dcd20c1b7567449e51e827f4a5261f57643cb51da132d
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header 1ad8cb305d9850c353f8c760d9f4b16562e480a4dad0506fe5fc3de04d6757a1
+ X 23:33:21 ethminer_frk GPU 0 gave incorrect result: target 0000000050942c6150f047fab52d334b875da6704c1f6d10a215201285e23062 header 27446453c820343ab6fdb9288065cbfa9e706e47539aa81dc0bc2c1ee1b1e4da
+
+c0433463d6989db
+c04033463d6989db
+
+610d90dd37bee94c
+
+
+///8
+
+ i 23:56:45 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:56:45 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:56:45 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:56:45 ethminer_frk Spinning up miners...
+.. 23:56:45 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:56:45 ethminer_frk Epoch : 284 Difficulty : 205.30 Gh
+ i 23:56:45 ethminer_frk Job: 69134539\u2026 127.0.0.1:9656
+cl 23:56:47 cl-0     OpenCL frk kernel
+.. 23:56:48 cl-0     Start search with header: 691345391f7e7908de3908b4f6a45a236d381e02ab210a0443e572da2d58ffc0 boundary: 00000000055b08e617a12aff22a94a09aafcee8012f8bce3c15b1cdbc6eca95f startNonce: 6136752307674711652
+.. 23:56:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10354991831075256864 as_ulong(rshift192(w.boundary)): 89852134 as 8 bytes from kejjak: 8fb452350f4ffa20 8 bytes boundary: 55b08e6
+ i 23:56:48 cl-0     Job: 69134539\u2026 Solution: 0x552a1fb5bd8289e4
+.. 23:56:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10354991831075256864 as_ulong(rshift192(w.boundary)): 89852134 as 8 bytes from kejjak: 8fb452350f4ffa20 8 bytes boundary: 55b08e6
+ i 23:56:48 cl-0     Job: 69134539\u2026 Solution: 0x552a1fb5bd8289e5
+ X 23:56:48 ethminer_frk GPU 0 gave incorrect result: target 00000000505b80e617a12aff22a94a90aafcee8012f8bce3c15b1cdbc6eca95f header ed90c7b5d690b4f5f485b3595a52f8c9f7ce1510596cc9115f6eb5b06452afe4
+.. 23:56:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10354991831075256864 as_ulong(rshift192(w.boundary)): 89852134 as 8 bytes from kejjak: 8fb452350f4ffa20 8 bytes boundary: 55b08e6
+ i 23:56:48 cl-0     Job: 69134539\u2026 Solution: 0x552a1fb5bd8289e6
+.. 23:56:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10354991831075256864 as_ulong(rshift192(w.boundary)): 89852134 as 8 bytes from kejjak: 8fb452350f4ffa20 8 bytes boundary: 55b08e6
+ i 23:56:48 cl-0     Job: 69134539\u2026 Solution: 0x552a1fb5bd82a1e0
+ X 23:56:48 ethminer_frk GPU 0 gave incorrect result: target 00000000505b80e617a12aff22a94a90aafcee8012f8bce3c15b1cdbc6eca95f header a3275120b750801834f3608a405990af25ef76f9f69adf1ff78e607dae548b7f
+ X 23:56:48 ethminer_frk GPU 0 gave incorrect result: target 00000000505b80e617a12aff22a94a90aafcee8012f8bce3c15b1cdbc6eca95f header 4ec09e573ebe2980fcb011fef080157447117d70623b365aa9fed38d27fc78fe
+ X 23:56:48 ethminer_frk GPU 0 gave incorrect result: target 00000000505b80e617a12aff22a94a90aafcee8012f8bce3c15b1cdbc6eca95f header 8fb45235f04ffa2076bb6bdd9f803c8ff12e438a6349125d4067a5a2d4bbde63
+ m 23:56:50 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 23:56:52 main     Got interrupt ...
+ i 23:56:52 main     Disconnected from 127.0.0.1:9656
+ i 23:56:52 main     Terminated!
+
+
+8fb452350f4ffa20
+8fb45235f04ffa20
+//5th byte
+
+ i 23:58:29 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:58:29 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:58:29 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:58:29 ethminer_frk Spinning up miners...
+.. 23:58:29 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:58:29 ethminer_frk Epoch : 284 Difficulty : 207.72 Gh
+ i 23:58:29 ethminer_frk Job: 9b5c4f8d\u2026 127.0.0.1:9656
+cl 23:58:31 cl-0     OpenCL frk kernel
+.. 23:58:32 cl-0     Start search with header: 9b5c4f8dc82434d08559ec797af307017a49b6b406d2aa7d46e18cd450e35f90 boundary: 00000000054b13c40148c7374b27571b22b9958f198fa557d138f1a7058b7cbb startNonce: 15121613227510664103
+.. 23:58:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12541192873770399056 as_ulong(rshift192(w.boundary)): 88806340 as 8 bytes from kejjak: ae0b4478fcbeb550 8 bytes boundary: 54b13c4
+ i 23:58:32 cl-0     Job: 9b5c4f8d\u2026 Solution: 0xd1dac31cd89f1767
+.. 23:58:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12541192873770399056 as_ulong(rshift192(w.boundary)): 88806340 as 8 bytes from kejjak: ae0b4478fcbeb550 8 bytes boundary: 54b13c4
+ X 23:58:32 ethminer_frk GPU 0 gave incorrect result: target 00000000504b13c41048c7374b27571b22b9958f198fa557d138f1a7508b7cbb header 9a31e57f9589959c772e648c11cbc8a785e6213531c2f3c762451213ebe0ad7e
+ i 23:58:32 cl-0     Job: 9b5c4f8d\u2026 Solution: 0xd1dac31cd89f1768
+.. 23:58:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12541192873770399056 as_ulong(rshift192(w.boundary)): 88806340 as 8 bytes from kejjak: ae0b4478fcbeb550 8 bytes boundary: 54b13c4
+ i 23:58:32 cl-0     Job: 9b5c4f8d\u2026 Solution: 0xd1dac31cd89f1769
+.. 23:58:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12541192873770399056 as_ulong(rshift192(w.boundary)): 88806340 as 8 bytes from kejjak: ae0b4478fcbeb550 8 bytes boundary: 54b13c4
+ i 23:58:32 cl-0     Job: 9b5c4f8d\u2026 Solution: 0xd1dac31cd89f1e63
+ X 23:58:32 ethminer_frk GPU 0 gave incorrect result: target 00000000504b13c41048c7374b27571b22b9958f198fa557d138f1a7508b7cbb header ae8ebd9f508438c98477a4507ddda7d53bc987d0ba7b4048c51ba35e79bafd7b
+ X 23:58:32 ethminer_frk GPU 0 gave incorrect result: target 00000000504b13c41048c7374b27571b22b9958f198fa557d138f1a7508b7cbb header 20bdbb1816a34aa3fb7eda604bbe2de644f1fdad83d112a165db55e911c07fb8
+ X 23:58:32 ethminer_frk GPU 0 gave incorrect result: target 00000000504b13c41048c7374b27571b22b9958f198fa557d138f1a7508b7cbb header aeb04478fcbeb5503c3510e876b4825ff05a3847c9bd491495ddbc7eb14e87ff
+^C i 23:58:33 main     Got interrupt ...
+ i 23:58:33 main     Disconnected from 127.0.0.1:9656
+ i 23:58:33 main     Terminated!
+
+ae0b4478fcbeb550
+aeb04478fcbeb550
+//2nd byte
+
+
+ i 23:59:56 ethminer_frk Configured pool 127.0.0.1:9656
+ i 23:59:56 ethminer_frk Selected pool 127.0.0.1:9656
+ i 23:59:56 ethminer_frk Established connection to 127.0.0.1:9656
+ i 23:59:56 ethminer_frk Spinning up miners...
+.. 23:59:56 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 23:59:56 ethminer_frk Epoch : 284 Difficulty : 210.57 Gh
+ i 23:59:56 ethminer_frk Job: 636706b7\u2026 127.0.0.1:9656
+cl 23:59:58 cl-0     OpenCL frk kernel
+.. 23:59:59 cl-0     Start search with header: 636706b76e25be707149bb4cef3dd7e1b4452cc6256650367042e4367a687554 boundary: 000000000538b1d50ee5b3f0646048cd1368357486f936a97215a576a26d3b33 startNonce: 9130842419065452200
+.. 23:59:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3144040169401942497 as_ulong(rshift192(w.boundary)): 87601621 as 8 bytes from kejjak: 2ba1dfe050c301e1 8 bytes boundary: 538b1d5
+ i 23:59:59 cl-0     Job: 636706b7\u2026 Solution: 0x7eb744cd887703a8
+.. 23:59:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3144040169401942497 as_ulong(rshift192(w.boundary)): 87601621 as 8 bytes from kejjak: 2ba1dfe050c301e1 8 bytes boundary: 538b1d5
+ X 23:59:59 ethminer_frk GPU 0 gave incorrect result: target 000000005038b1d5e0e5b3f0646048cd1368357486f936a97215a576a26d3b33 header 919749f8e936306aa5f3c9237150788d47b44d91d9feb97eaaf34533ab8f7334
+ i 23:59:59 cl-0     Job: 636706b7\u2026 Solution: 0x7eb744cd887703a9
+.. 23:59:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3144040169401942497 as_ulong(rshift192(w.boundary)): 87601621 as 8 bytes from kejjak: 2ba1dfe050c301e1 8 bytes boundary: 538b1d5
+ i 23:59:59 cl-0     Job: 636706b7\u2026 Solution: 0x7eb744cd887703aa
+.. 23:59:59 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3144040169401942497 as_ulong(rshift192(w.boundary)): 87601621 as 8 bytes from kejjak: 2ba1dfe050c301e1 8 bytes boundary: 538b1d5
+ i 23:59:59 cl-0     Job: 636706b7\u2026 Solution: 0x7eb744cd88771524
+ X 23:59:59 ethminer_frk GPU 0 gave incorrect result: target 000000005038b1d5e0e5b3f0646048cd1368357486f936a97215a576a26d3b33 header ae90301011f1ae654511143286597337955bd2a4a76282a690fd54507e57ffb7
+ X 23:59:59 ethminer_frk GPU 0 gave incorrect result: target 000000005038b1d5e0e5b3f0646048cd1368357486f936a97215a576a26d3b33 header 6950baee2ab84156374191ae206abc655c42b161824ec8473ddaa2607a4dde1e
+ X 23:59:59 ethminer_frk GPU 0 gave incorrect result: target 000000005038b1d5e0e5b3f0646048cd1368357486f936a97215a576a26d3b33 header 2ba1dfe050c310e18d407e2555d53090ee136270fddb6bee20ddfa42178249c0
+ m 00:00:01 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 00:00:02 main     Got interrupt ...
+ i 00:00:02 main     Disconnected from 127.0.0.1:9656
+ i 00:00:02 main     Terminated!
+
+2ba1dfe050c301e1
+2ba1dfe050c310e1
+//7th byte
+
+[root@corfu build]# /usr/local/bin/ethminer_frk -G -P http://127.0.0.1:9656
+
+
+ethminer 0.19.0
+Build: linux/release/gnu
+
+ i 00:02:04 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:02:04 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:02:04 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:02:04 ethminer_frk Spinning up miners...
+.. 00:02:04 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:02:04 ethminer_frk Epoch : 284 Difficulty : 209.74 Gh
+ i 00:02:04 ethminer_frk Job: 46e43340\u2026 127.0.0.1:9656
+cl 00:02:06 cl-0     OpenCL frk kernel
+.. 00:02:07 cl-0     Start search with header: 46e43340d82b497f614b4c91e986c81d02524c7218bafb96eb4915c36650c0e8 boundary: 00000000053df8fd1e77867d39e667a05eddc6b7e527e35fd4f9631e092c5ac8 startNonce: 12604182094397674363
+.. 00:02:07 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13366340800500800469 as_ulong(rshift192(w.boundary)): 87947517 as 8 bytes from kejjak: b97ec823e0a91bd5 8 bytes boundary: 53df8fd
+ i 00:02:07 cl-0     Job: 46e43340\u2026 Solution: 0xaeeb0cd5c4e995bb
+ X 00:02:07 ethminer_frk GPU 0 gave incorrect result: target 00000000503df8fd1e77867d39e667a05eddc6b7e527e35fd4f9631e902c5ac8 header 2830748d12fc10851ea02e1cf693a65598ca6d769867988ffeeacf7dd712aa12
+.. 00:02:07 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13366340800500800469 as_ulong(rshift192(w.boundary)): 87947517 as 8 bytes from kejjak: b97ec823e0a91bd5 8 bytes boundary: 53df8fd
+ i 00:02:07 cl-0     Job: 46e43340\u2026 Solution: 0xaeeb0cd5c4e995bc
+.. 00:02:07 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13366340800500800469 as_ulong(rshift192(w.boundary)): 87947517 as 8 bytes from kejjak: b97ec823e0a91bd5 8 bytes boundary: 53df8fd
+ i 00:02:07 cl-0     Job: 46e43340\u2026 Solution: 0xaeeb0cd5c4e995bd
+.. 00:02:07 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13366340800500800469 as_ulong(rshift192(w.boundary)): 87947517 as 8 bytes from kejjak: b97ec823e0a91bd5 8 bytes boundary: 53df8fd
+ i 00:02:07 cl-0     Job: 46e43340\u2026 Solution: 0xaeeb0cd5c4e9a677
+ X 00:02:07 ethminer_frk GPU 0 gave incorrect result: target 00000000503df8fd1e77867d39e667a05eddc6b7e527e35fd4f9631e902c5ac8 header c2ac4c5ff12c70fe2549916dc067ff80287a6a60d1dc19e13610afea29d52560
+ X 00:02:07 ethminer_frk GPU 0 gave incorrect result: target 00000000503df8fd1e77867d39e667a05eddc6b7e527e35fd4f9631e902c5ac8 header e938b4768a46885b5b1afce03faa2f31f854a24c3578cddfc94f92192dd21346
+ X 00:02:07 ethminer_frk GPU 0 gave incorrect result: target 00000000503df8fd1e77867d39e667a05eddc6b7e527e35fd4f9631e902c5ac8 header b97ec823e0a91bd5a8d17b5a93e688653ee67ff75aa1c08669d57ec0de75998a
+^C i 00:02:09 main     Got interrupt ...
+ i 00:02:09 main     Disconnected from 127.0.0.1:9656
+ i 00:02:09 main     Terminated!
+
+
+b97ec823e0a91bd5
+b97ec823e0a91bd5
+//good
+
+ i 00:03:01 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:03:01 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:03:01 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:03:01 ethminer_frk Spinning up miners...
+.. 00:03:01 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:03:01 ethminer_frk Epoch : 284 Difficulty : 210.56 Gh
+ i 00:03:01 ethminer_frk Job: bf0b52e6\u2026 127.0.0.1:9656
+cl 00:03:03 cl-0     OpenCL frk kernel
+.. 00:03:04 cl-0     Start search with header: bf0b52e6d630e36489a432a00982996c5776e1b810673305b11b265450bac682 boundary: 000000000538c6d1029227d3abc6b28ad10d4db0b4bdf3e6d7db4ecd8bb60410 startNonce: 4091230443703694780
+.. 00:03:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3183875837109497997 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: 2c2f663477dc708d 8 bytes boundary: 538c6d1
+ i 00:03:04 cl-0     Job: bf0b52e6\u2026 Solution: 0x38c6f8698b38f77c
+.. 00:03:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3183875837109497997 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: 2c2f663477dc708d 8 bytes boundary: 538c6d1
+ i 00:03:04 cl-0     Job: bf0b52e6\u2026 Solution: 0x38c6f8698b38f77d
+.. 00:03:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3183875837109497997 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: 2c2f663477dc708d 8 bytes boundary: 538c6d1
+ X 00:03:04 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header 5b8b9720e0c74b44cac1d01ec8c03ac87a105181db6ec7113af013b3edcd1680
+ i 00:03:04 cl-0     Job: bf0b52e6\u2026 Solution: 0x38c6f8698b38f77e
+.. 00:03:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3183875837109497997 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: 2c2f663477dc708d 8 bytes boundary: 538c6d1
+ i 00:03:04 cl-0     Job: bf0b52e6\u2026 Solution: 0x38c6f8698b390cf8
+ X 00:03:04 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header 1847105bfbd0a27db1b937c540d5bb41f27dfc30862c3aa5ffaf27e03478c3c8
+ X 00:03:04 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header f7f5ee623d26f05edbf77a69ab3380bff79c337116e097de5fa63f7bbe978fce
+ X 00:03:04 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header 2c2f663477dc708dbbd650ae7d6462f07dd5d45124c41d231256a2801e74a629
+^C i 00:03:05 main     Got interrupt ...
+ i 00:03:05 main     Disconnected from 127.0.0.1:9656
+ i 00:03:05 main     Terminated!
+
+2c2f663477dc708d
+2c2f663477dc708d
+//good
+
+i 00:03:54 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:03:54 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:03:54 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:03:54 ethminer_frk Spinning up miners...
+.. 00:03:54 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:03:54 ethminer_frk Epoch : 284 Difficulty : 210.56 Gh
+ i 00:03:54 ethminer_frk Job: bf0b52e6\u2026 127.0.0.1:9656
+cl 00:03:56 cl-0     OpenCL frk kernel
+.. 00:03:57 cl-0     Start search with header: bf0b52e6d630e36489a432a00982996c5776e1b810673305b11b265450bac682 boundary: 000000000538c6d1029227d3abc6b28ad10d4db0b4bdf3e6d7db4ecd8bb60410 startNonce: 1796924197321290478
+.. 00:03:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12323449270023631497 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: ab05afd1934e3289 8 bytes boundary: 538c6d1
+ i 00:03:57 cl-0     Job: bf0b52e6\u2026 Solution: 0x18eff50975a3b2ee
+ X 00:03:57 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header b434f79d5a549bf3895dacbef9fe4a34caeccb80dc266aaa12392ca8a7cdb545
+.. 00:03:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12323449270023631497 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: ab05afd1934e3289 8 bytes boundary: 538c6d1
+ i 00:03:57 cl-0     Job: bf0b52e6\u2026 Solution: 0x18eff50975a3b2ef
+.. 00:03:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12323449270023631497 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: ab05afd1934e3289 8 bytes boundary: 538c6d1
+ i 00:03:57 cl-0     Job: bf0b52e6\u2026 Solution: 0x18eff50975a3b2f0
+.. 00:03:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12323449270023631497 as_ulong(rshift192(w.boundary)): 87606993 as 8 bytes from kejjak: ab05afd1934e3289 8 bytes boundary: 538c6d1
+ i 00:03:57 cl-0     Job: bf0b52e6\u2026 Solution: 0x18eff50975a3c86a
+ X 00:03:57 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header fc141271197dc1efbc32bd708a9ce9793dcfed36eca39918335f7d83c4d36f66
+ X 00:03:57 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header 6ed673bee16be35a62179dc74cb518b8115d358315846a41be7aa763ae5951b0
+ X 00:03:57 ethminer_frk GPU 0 gave incorrect result: target 000000005038c6d1209227d3abc6b28ad1d04db0b4bdf3e6d7db4ecd8bb64010 header ab50afd1934e32891f908d799d90f4c474a5f539c118576cb2d625316d49c3bd
+^C i 00:03:58 main     Got interrupt ...
+ i 00:03:58 main     Disconnected from 127.0.0.1:9656
+ i 00:03:58 main     Terminated!
+
+ab05afd1934e3289
+ab50afd1934e3289
+//2nd byte
+
+i 00:06:09 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:06:09 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:06:09 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:06:09 ethminer_frk Spinning up miners...
+.. 00:06:09 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:06:09 ethminer_frk Epoch : 284 Difficulty : 210.96 Gh
+ i 00:06:09 ethminer_frk Job: b81b9e44\u2026 127.0.0.1:9656
+cl 00:06:11 cl-0     OpenCL frk kernel
+.. 00:06:12 cl-0     Start search with header: b81b9e4402c5fb7e8419a387da9f1518790f4fdab541afe55e9460786fea98f3 boundary: 0000000005363a1d4e354b1cb9e809737791bde879b2e539f294168a8162ac8e startNonce: 10887046051011617698
+.. 00:06:12 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8102086119648404660 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: 707064662d4424b4 8 bytes boundary: 5363a1d
+ X 00:06:12 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header a9be2f3ea4778faf52524ed73f3e725ce9ece1b784b164604eb8e73094272081
+ i 00:06:12 cl-0     Job: b81b9e44\u2026 Solution: 0x97168eb38bdde9e2
+.. 00:06:12 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8102086119648404660 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: 707064662d4424b4 8 bytes boundary: 5363a1d
+ i 00:06:12 cl-0     Job: b81b9e44\u2026 Solution: 0x97168eb38bdde9e3
+.. 00:06:12 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8102086119648404660 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: 707064662d4424b4 8 bytes boundary: 5363a1d
+ i 00:06:12 cl-0     Job: b81b9e44\u2026 Solution: 0x97168eb38bdde9e4
+.. 00:06:12 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8102086119648404660 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: 707064662d4424b4 8 bytes boundary: 5363a1d
+ i 00:06:12 cl-0     Job: b81b9e44\u2026 Solution: 0x97168eb38bddfade
+ X 00:06:12 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header d06a9028e32fb1344c5270a024f157d2b828f3ff2c70a67c29c7c9a778d738e0
+ X 00:06:12 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header 73452b8869309598975a14e8fb51a92ea42e4f3450271facedb045c9305ab453
+ X 00:06:12 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header 707064662d4424b4daaff75caa6d42d06a3064a590ae8bc048ee3092d4b86767
+
+707064662d4424b4
+707064662d4424b4
+//good
+
+[root@corfu build]# /usr/local/bin/ethminer_frk -G -P http://127.0.0.1:9656
+
+
+ethminer 0.19.0
+Build: linux/release/gnu
+
+ i 00:06:44 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:06:44 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:06:44 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:06:44 ethminer_frk Spinning up miners...
+.. 00:06:44 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:06:44 ethminer_frk Epoch : 284 Difficulty : 210.96 Gh
+ i 00:06:44 ethminer_frk Job: b81b9e44\u2026 127.0.0.1:9656
+cl 00:06:46 cl-0     OpenCL frk kernel
+.. 00:06:46 cl-0     Start search with header: b81b9e4402c5fb7e8419a387da9f1518790f4fdab541afe55e9460786fea98f3 boundary: 0000000005363a1d4e354b1cb9e809737791bde879b2e539f294168a8162ac8e startNonce: 11136108062960948829
+.. 00:06:46 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17014824090181216533 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: ec20cc5c9302a915 8 bytes boundary: 5363a1d
+ i 00:06:46 cl-0     Job: b81b9e44\u2026 Solution: 0x9a8b67481926991d
+.. 00:06:46 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17014824090181216533 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: ec20cc5c9302a915 8 bytes boundary: 5363a1d
+ i 00:06:46 cl-0     Job: b81b9e44\u2026 Solution: 0x9a8b67481926991e
+.. 00:06:46 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17014824090181216533 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: ec20cc5c9302a915 8 bytes boundary: 5363a1d
+ i 00:06:46 cl-0     Job: b81b9e44\u2026 Solution: 0x9a8b67481926991f
+ X 00:06:46 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header 711f4c55704cd829c15f8ca3e29b6f4066e6eccdef901335ab48bd988e288c5d
+.. 00:06:46 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17014824090181216533 as_ulong(rshift192(w.boundary)): 87439901 as 8 bytes from kejjak: ec20cc5c9302a915 8 bytes boundary: 5363a1d
+ i 00:06:46 cl-0     Job: b81b9e44\u2026 Solution: 0x9a8b67481926b519
+ X 00:06:46 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header 64cd2f50ff90fdd429e0196ae0ee17577bde3f9e2bb0306b8f8060cfbadd1253
+ X 00:06:46 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header 60b6cd7ab0d689b97e504e111d4721dac757c7401f5cc6921f75c91f8ab88845
+ X 00:06:46 ethminer_frk GPU 0 gave incorrect result: target 0000000050363a1d4e354b1cb9e890737791bde879b2e539f294168a8162ac8e header ec20cc5c9320a9151c7e41e5bd18e649c05989f5d9ba2012881dff332cd930d4
+^C i 00:06:48 main     Got interrupt ...
+ i 00:06:48 main     Disconnected from 127.0.0.1:9656
+ i 00:06:48 main     Terminated!
+
+ec20cc5c9302a915
+ec20cc5c9320a915
+//6th byte
+
+ethminer 0.19.0
+Build: linux/release/gnu
+
+ i 00:07:49 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:07:49 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:07:49 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:07:49 ethminer_frk Spinning up miners...
+.. 00:07:49 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:07:49 ethminer_frk Epoch : 284 Difficulty : 210.55 Gh
+ i 00:07:49 ethminer_frk Job: 97cc2eee\u2026 127.0.0.1:9656
+cl 00:07:51 cl-0     OpenCL frk kernel
+.. 00:07:52 cl-0     Start search with header: 97cc2eee85a4b5455a93e61f0a9d1bcde8cf17c98bec2f9df61c9ba4f4569b75 boundary: 000000000538dd14e263248de31b1be05ed2b70a6ad99515bca52468d3b8de40 startNonce: 18320140177124481914
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1517572814761592800 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 150f806f40a787e0 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d44dde37a
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1517572814761592800 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 150f806f40a787e0 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d44dde37b
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1517572814761592800 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 150f806f40a787e0 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d44dde37c
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1517572814761592800 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 150f806f40a787e0 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d44ddf8b6
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header 107172ca15a2f0705061f02caf5c4cf217535d8966e08362adc93c9066946781
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1537347609509364569 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 1555c181711a0359 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d45a12cba
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1537347609509364569 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 1555c181711a0359 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d45a12cbb
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1537347609509364569 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 1555c181711a0359 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d45a12cbc
+.. 00:07:52 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1537347609509364569 as_ulong(rshift192(w.boundary)): 87612692 as 8 bytes from kejjak: 1555c181711a0359 8 bytes boundary: 538dd14
+ i 00:07:52 cl-0     Job: 97cc2eee\u2026 Solution: 0xfe3e366d45a14276
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header ac4cec5aab30e5885980b98b9d118c8e6330e6d7405f7a76b04ac6905f82e234
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header c8c020de37c296dcf15b5c175a552930e35e31313cccc3b29ef3f8bb2ec9eb5f
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header 15f0806f40a787e053bce5d2119da556c03afb3257d85e53195ad2cb427fca20
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header ca57c17f86253ec020cc62b1745c3c901b7be73cae92c126bade7aac809bbe48
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header 9275cf3980e6d5458ecf3087a79b5b8ffdbff3f41ad4f0526df5aa77d2631c6b
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header 5230d0c530168a6783109088f735ade8e3d0e88f776eac4ab59e305dfed77c9a
+ X 00:07:52 ethminer_frk GPU 0 gave incorrect result: target 000000005038dd14e263248de31b1be05ed2b7a06ad99515bca52468d3b8de40 header 3e1230f0984d86a8b2e94036ad2a31be4fcd551872585ebcc45873ff865ac8ae
+ m 00:07:54 ethminer_frk 0:00 A0:F8 0.00 h - cl0 0.00
+ i 00:07:55 ethminer_frk Epoch : 284 Difficulty : 210.13 Gh
+ i 00:07:55 ethminer_frk Job: c988f66d\u2026 127.0.0.1:9656
+^C i 00:07:56 main     Got interrupt ...
+ i 00:07:56 main     Disconnected from 127.0.0.1:9656
+ i 00:07:56 main     Terminated!
+
+150f806f40a787e0
+15f0806f40a787e0
+//2nd byte
+
+1555c181711a0359
+---
+
+.. 00:10:14 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:10:14 ethminer_frk Epoch : 284 Difficulty : 210.54 Gh
+ i 00:10:14 ethminer_frk Job: 7da423ae\u2026 127.0.0.1:9656
+cl 00:10:16 cl-0     OpenCL frk kernel
+ i 00:10:16 ethminer_frk Epoch : 284 Difficulty : 210.96 Gh
+ i 00:10:16 ethminer_frk Job: af55566f\u2026 127.0.0.1:9656
+.. 00:10:17 cl-0     Start search with header: af55566f296addff0960c74f88a24b0f4d1bbb8810d2ced4a99d985fe2d3f541 boundary: 000000000536448f0a63050ce0fea61e0db82ab9c50ab39821b11f21915b611c startNonce: 609441617647675364
+.. 00:10:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10641523624437621074 as_ulong(rshift192(w.boundary)): 87442575 as 8 bytes from kejjak: 93ae495aef882152 8 bytes boundary: 536448f
+ i 00:10:17 cl-0     Job: af55566f\u2026 Solution: 0x08752bec1b3ab464
+ X 00:10:17 ethminer_frk GPU 0 gave incorrect result: target 000000005036448fa06350c0e0fea61ed0b82ab9c5a0b39821b11f21915b611c header 2075fd3f5cbbc0ac7660a95af85ee4ffa6d59343f4cb939a18fcc5783d7d407c
+.. 00:10:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10641523624437621074 as_ulong(rshift192(w.boundary)): 87442575 as 8 bytes from kejjak: 93ae495aef882152 8 bytes boundary: 536448f
+ i 00:10:17 cl-0     Job: af55566f\u2026 Solution: 0x08752bec1b3ab465
+.. 00:10:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10641523624437621074 as_ulong(rshift192(w.boundary)): 87442575 as 8 bytes from kejjak: 93ae495aef882152 8 bytes boundary: 536448f
+ i 00:10:17 cl-0     Job: af55566f\u2026 Solution: 0x08752bec1b3ab466
+.. 00:10:17 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10641523624437621074 as_ulong(rshift192(w.boundary)): 87442575 as 8 bytes from kejjak: 93ae495aef882152 8 bytes boundary: 536448f
+ i 00:10:17 cl-0     Job: af55566f\u2026 Solution: 0x08752bec1b3abda0
+ X 00:10:17 ethminer_frk GPU 0 gave incorrect result: target 000000005036448fa06350c0e0fea61ed0b82ab9c5a0b39821b11f21915b611c header 10592327ee7bea1ff9f322d2f068e23af26091a4f966a939003b19fab145cac2
+ X 00:10:17 ethminer_frk GPU 0 gave incorrect result: target 000000005036448fa06350c0e0fea61ed0b82ab9c5a0b39821b11f21915b611c header b93cdfc3f4a1f32054f72849caf48de0ef94b1bebd75bdb8604b1253f32939f1
+ X 00:10:17 ethminer_frk GPU 0 gave incorrect result: target 000000005036448fa06350c0e0fea61ed0b82ab9c5a0b39821b11f21915b611c header 93ae495aef8821528adc6a9c45f081a5b3c85168b1702371f0f4d10046ae1e80
+
+93ae495aef882152
+93ae495aef882152
+//good
+
+
+///4
+
+i 00:16:28 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:16:28 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:16:28 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:16:28 ethminer_frk Spinning up miners...
+.. 00:16:28 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:16:28 ethminer_frk Epoch : 284 Difficulty : 213.44 Gh
+ i 00:16:28 ethminer_frk Job: 67a9d887\u2026 127.0.0.1:9656
+cl 00:16:30 cl-0     OpenCL frk kernel
+.. 00:16:31 cl-0     Start search with header: 67a9d887578762e876bc233c5687eb0633eacb699b2e20a63ab6de768b46e428 boundary: 000000000526c220b2b71b927a52a899811f722bd83965dd22d9aaaf370e61c8 startNonce: 12799182896548176247
+.. 00:16:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17278685258972742029 as_ulong(rshift192(w.boundary)): 86426144 as 8 bytes from kejjak: efca38b256d9418d 8 bytes boundary: 526c220
+ i 00:16:31 cl-0     Job: 67a9d887\u2026 Solution: 0xb19fd5080c027137
+.. 00:16:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17278685258972742029 as_ulong(rshift192(w.boundary)): 86426144 as 8 bytes from kejjak: efca38b256d9418d 8 bytes boundary: 526c220
+ X 00:16:31 ethminer_frk GPU 0 gave incorrect result: target 000000005026c220b2b71b927a52a899811f722bd83965dd22d9aaaf37e061c8 header 9f71834894679e8edda8472af985de60c1841a5f158ee2d6e94020377252a266
+ i 00:16:31 cl-0     Job: 67a9d887\u2026 Solution: 0xb19fd5080c027138
+.. 00:16:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17278685258972742029 as_ulong(rshift192(w.boundary)): 86426144 as 8 bytes from kejjak: efca38b256d9418d 8 bytes boundary: 526c220
+ i 00:16:31 cl-0     Job: 67a9d887\u2026 Solution: 0xb19fd5080c027139
+.. 00:16:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17278685258972742029 as_ulong(rshift192(w.boundary)): 86426144 as 8 bytes from kejjak: efca38b256d9418d 8 bytes boundary: 526c220
+ i 00:16:31 cl-0     Job: 67a9d887\u2026 Solution: 0xb19fd5080c027cb3
+ X 00:16:31 ethminer_frk GPU 0 gave incorrect result: target 000000005026c220b2b71b927a52a899811f722bd83965dd22d9aaaf37e061c8 header d3d0fef2f4e6268029931279f9cf17bb243f97c35d509db07dd05e909997802c
+ X 00:16:31 ethminer_frk GPU 0 gave incorrect result: target 000000005026c220b2b71b927a52a899811f722bd83965dd22d9aaaf37e061c8 header 10a0ce5b211ce2ce4c9cc0e5138d2f121825c1143074acdf2adb74f059ec12db
+ X 00:16:31 ethminer_frk GPU 0 gave incorrect result: target 000000005026c220b2b71b927a52a899811f722bd83965dd22d9aaaf37e061c8 header efca38b256d9418d4d40c0585660dfa0408cc6b55088f0a0f05127efc9a9e1d6
+^C i 00:16:33 main     Got interrupt ...
+ i 00:16:33 main     Disconnected from 127.0.0.1:9656
+ i 00:16:33 main     Terminated!
+
+efca38b256d9418d
+efca38b256d9418d
+//good
+
+ i 00:17:48 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:17:48 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:17:48 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:17:48 ethminer_frk Spinning up miners...
+.. 00:17:48 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:17:48 ethminer_frk Epoch : 284 Difficulty : 215.11 Gh
+ i 00:17:48 ethminer_frk Job: ff5d293d\u2026 127.0.0.1:9656
+cl 00:17:50 cl-0     OpenCL frk kernel
+.. 00:17:51 cl-0     Start search with header: ff5d293d930decb5cab95d183e1e5060a93c5ef7f6fa7a67b9ed6be169b2f113 boundary: 00000000051c83fd7cbb7d8d0a3473a52733c1554bac6491fdb88eec30d6d762 startNonce: 2628944076399195645
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18187868664720886561 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: fc684a2fe6258b21 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b57024387d
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18187868664720886561 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: fc684a2fe6258b21 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b57024387e
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18187868664720886561 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: fc684a2fe6258b21 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b57024387f
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18187868664720886561 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: fc684a2fe6258b21 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b570244979
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header b9f6213429202bca7ff46fc847c03a36601f68edfb78d41b893711231ebc29bb
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12918951576070452016 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: b3495602ca26f330 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b570e795bd
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12918951576070452016 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: b3495602ca26f330 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b570e795be
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12918951576070452016 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: b3495602ca26f330 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b570e795bf
+.. 00:17:51 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12918951576070452016 as_ulong(rshift192(w.boundary)): 85754877 as 8 bytes from kejjak: b3495602ca26f330 8 bytes boundary: 51c83fd
+ i 00:17:51 cl-0     Job: ff5d293d\u2026 Solution: 0x247be2b570e79f39
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header b5ae1c50d0aa3517badf454f1c3d2c15b038949be0fcf2e88df266adca115d64
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header 5c7b3dbde780274de1d255d62f5280facc345a4a8071b33b877cb67fb09785d1
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header fc684a2fe6258b21c39c85ef4946861d324c52e15cbc7087865a12ea4b88c65f
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header 3989c8ecac411063e42b4218565a2c268eaef9bc37149cfd4b83923c28b5c864
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header a9eb2d9d1b9ae2c3eeafb9dd45ebfa5f3db03f4c80944535a06010d25fb332a0
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header affe7e7077696d24b8434f001e40e8a1a8891f11eb166a38fd7d7b7942d8ed1e
+ X 00:17:51 ethminer_frk GPU 0 gave incorrect result: target 00000000501c83fd7cbb7d8da03473a52733c1554bac6491fdb88eec30d6d762 header 005bf5ab3cda6b5c709bd440fcddcdb8cb4ce058bb2676f170c65f3ab63eeb35
+^C i 00:17:52 main     Got interrupt ...
+ i 00:17:52 main     Disconnected from 127.0.0.1:9656
+ i 00:17:52 main     Terminated!
+
+fc684a2fe6258b21
+fc684a2fe6258b21
+//good
+
+b3495602ca26f330
+----
+
+i 00:19:33 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:19:33 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:19:33 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:19:33 ethminer_frk Spinning up miners...
+.. 00:19:33 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:19:33 ethminer_frk Epoch : 284 Difficulty : 214.27 Gh
+ i 00:19:33 ethminer_frk Job: cede9199\u2026 127.0.0.1:9656
+cl 00:19:35 cl-0     OpenCL frk kernel
+.. 00:19:36 cl-0     Start search with header: cede91994d6696a18b4188c060f11ec5c3f9b4fd69355d767078343189478311 boundary: 000000000521a5a31fb8e3ceeea5dbdae5f3db7b9bf1e0001c43ae05e57c2dc2 startNonce: 200160295063899371
+.. 00:19:36 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16909509897062689230 as_ulong(rshift192(w.boundary)): 86091171 as 8 bytes from kejjak: eaaaa5a9345fa9ce 8 bytes boundary: 521a5a3
+ i 00:19:36 cl-0     Job: cede9199\u2026 Solution: 0x02c71cba556bd32b
+.. 00:19:36 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16909509897062689230 as_ulong(rshift192(w.boundary)): 86091171 as 8 bytes from kejjak: eaaaa5a9345fa9ce 8 bytes boundary: 521a5a3
+ X 00:19:36 ethminer_frk GPU 0 gave incorrect result: target 000000005021a5a31fb8e3ceeea5dbdae5f3db7b9bf1e0001c43ae50e57c2dc2 header 154b789488158ca860d9c4333cf37ba2b4bdcd3c604d96925c30e290183338d7
+ i 00:19:36 cl-0     Job: cede9199\u2026 Solution: 0x02c71cba556bd32c
+.. 00:19:36 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16909509897062689230 as_ulong(rshift192(w.boundary)): 86091171 as 8 bytes from kejjak: eaaaa5a9345fa9ce 8 bytes boundary: 521a5a3
+ i 00:19:36 cl-0     Job: cede9199\u2026 Solution: 0x02c71cba556bd32d
+.. 00:19:36 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16909509897062689230 as_ulong(rshift192(w.boundary)): 86091171 as 8 bytes from kejjak: eaaaa5a9345fa9ce 8 bytes boundary: 521a5a3
+ i 00:19:36 cl-0     Job: cede9199\u2026 Solution: 0x02c71cba556bece7
+ X 00:19:36 ethminer_frk GPU 0 gave incorrect result: target 000000005021a5a31fb8e3ceeea5dbdae5f3db7b9bf1e0001c43ae50e57c2dc2 header beb3237d1e7ba5f72e6cfdf9502477d5988b81d22185e1b4429baea0ed9732b6
+ X 00:19:36 ethminer_frk GPU 0 gave incorrect result: target 000000005021a5a31fb8e3ceeea5dbdae5f3db7b9bf1e0001c43ae50e57c2dc2 header c6300095ce4d56a177124d62d24030b1ed4d58806c3229c8f6c715fc9b30adab
+ X 00:19:36 ethminer_frk GPU 0 gave incorrect result: target 000000005021a5a31fb8e3ceeea5dbdae5f3db7b9bf1e0001c43ae50e57c2dc2 header eaaaa5a9345fa9ce4558beee60208da6ea63b858f435702b6c272357c1ee565d
+ m 00:19:38 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 00:19:38 main     Got interrupt ...
+ i 00:19:38 main     Disconnected from 127.0.0.1:9656
+ i 00:19:38 main     Terminated!
+
+eaaaa5a9345fa9ce
+eaaaa5a9345fa9ce
+//good
+
+[root@corfu build]# /usr/local/bin/ethminer_frk -G -P http://127.0.0.1:9656
+
+
+ethminer 0.19.0
+Build: linux/release/gnu
+
+ i 00:20:22 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:20:22 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:20:22 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:20:22 ethminer_frk Spinning up miners...
+.. 00:20:22 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:20:22 ethminer_frk Epoch : 284 Difficulty : 213.85 Gh
+ i 00:20:22 ethminer_frk Job: b9590b69\u2026 127.0.0.1:9656
+cl 00:20:24 cl-0     OpenCL frk kernel
+.. 00:20:25 cl-0     Start search with header: b9590b69c16bb417aa2431c69a94691ed941f5b3590c69914f996703680ec085 boundary: 00000000052437beff2b55a004cf294ee1e2ba2a77b0bdf963fe1a7d9ff292aa startNonce: 9282012739665127762
+.. 00:20:25 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5301681882823435668 as_ulong(rshift192(w.boundary)): 86259646 as 8 bytes from kejjak: 49935b9539d0a594 8 bytes boundary: 52437be
+ X 00:20:25 ethminer_frk GPU 0 gave incorrect result: target 00000000502437beff2b55a040cf294ee1e2ba2a77b0bdf963fe1a7d9ff292aa header 987964987ebc535ac6843b93614e806f398c63d7e08c174d168315e9dcf86086
+ i 00:20:25 cl-0     Job: b9590b69\u2026 Solution: 0x80d055689463f292
+.. 00:20:25 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5301681882823435668 as_ulong(rshift192(w.boundary)): 86259646 as 8 bytes from kejjak: 49935b9539d0a594 8 bytes boundary: 52437be
+ i 00:20:25 cl-0     Job: b9590b69\u2026 Solution: 0x80d055689463f293
+.. 00:20:25 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5301681882823435668 as_ulong(rshift192(w.boundary)): 86259646 as 8 bytes from kejjak: 49935b9539d0a594 8 bytes boundary: 52437be
+ i 00:20:25 cl-0     Job: b9590b69\u2026 Solution: 0x80d055689463f294
+.. 00:20:25 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 5301681882823435668 as_ulong(rshift192(w.boundary)): 86259646 as 8 bytes from kejjak: 49935b9539d0a594 8 bytes boundary: 52437be
+ i 00:20:25 cl-0     Job: b9590b69\u2026 Solution: 0x80d055689463fe8e
+ X 00:20:25 ethminer_frk GPU 0 gave incorrect result: target 00000000502437beff2b55a040cf294ee1e2ba2a77b0bdf963fe1a7d9ff292aa header ec70ef9320def5d7755dbc8078f01f2d2fcb7ec9c53ec5afa49ae0abf1401210
+ X 00:20:25 ethminer_frk GPU 0 gave incorrect result: target 00000000502437beff2b55a040cf294ee1e2ba2a77b0bdf963fe1a7d9ff292aa header 8da1f76c439d4597c23cffac148be223a1a73b8f382fef908bc1624fe020698c
+ X 00:20:25 ethminer_frk GPU 0 gave incorrect result: target 00000000502437beff2b55a040cf294ee1e2ba2a77b0bdf963fe1a7d9ff292aa header 49935b9539d0a5945ca3bebafee02477b0bfefb160a2d28f5f62dceeaf8b47ea
+^C i 00:20:26 main     Got interrupt ...
+ i 00:20:26 main     Disconnected from 127.0.0.1:9656
+ i 00:20:26 main     Terminated!
+
+49935b9539d0a594
+49935b9539d0a594
+//good
+
+ i 00:21:45 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:21:45 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:21:45 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:21:45 ethminer_frk Spinning up miners...
+.. 00:21:45 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:21:45 ethminer_frk Epoch : 284 Difficulty : 214.26 Gh
+ i 00:21:45 ethminer_frk Job: 1bab25ba\u2026 127.0.0.1:9656
+cl 00:21:47 cl-0     OpenCL frk kernel
+.. 00:21:48 cl-0     Start search with header: 1bab25bab6bd67d56fc264a9ce10f6eb93146312219f81b0a403ba9f50f840df boundary: 000000000521aac611ec3d790aac08517dc9dd9434fa2a520e63bc5b2cca1bb4 startNonce: 6544707961961120880
+.. 00:21:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14700266637171882719 as_ulong(rshift192(w.boundary)): 86092486 as 8 bytes from kejjak: cc01d69f0427fadf 8 bytes boundary: 521aac6
+ i 00:21:48 cl-0     Job: 1bab25ba\u2026 Solution: 0x5ad379374f5d10f0
+ X 00:21:48 ethminer_frk GPU 0 gave incorrect result: target 000000005021aac611ec3d79a0ac80517dc9dd9434fa2a52e063bc5b2cca1bb4 header f0208045816220f366a8d9dada1b972b93d4408744bd38defc51d2b049db30da
+.. 00:21:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14700266637171882719 as_ulong(rshift192(w.boundary)): 86092486 as 8 bytes from kejjak: cc01d69f0427fadf 8 bytes boundary: 521aac6
+ i 00:21:48 cl-0     Job: 1bab25ba\u2026 Solution: 0x5ad379374f5d10f1
+.. 00:21:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14700266637171882719 as_ulong(rshift192(w.boundary)): 86092486 as 8 bytes from kejjak: cc01d69f0427fadf 8 bytes boundary: 521aac6
+ i 00:21:48 cl-0     Job: 1bab25ba\u2026 Solution: 0x5ad379374f5d10f2
+.. 00:21:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14700266637171882719 as_ulong(rshift192(w.boundary)): 86092486 as 8 bytes from kejjak: cc01d69f0427fadf 8 bytes boundary: 521aac6
+ i 00:21:48 cl-0     Job: 1bab25ba\u2026 Solution: 0x5ad379374f5d1aec
+ X 00:21:48 ethminer_frk GPU 0 gave incorrect result: target 000000005021aac611ec3d79a0ac80517dc9dd9434fa2a52e063bc5b2cca1bb4 header e969ffb1b310856ebbbd55d0bee72aa0d7b15340434c93f0a0286475cc9db681
+ X 00:21:48 ethminer_frk GPU 0 gave incorrect result: target 000000005021aac611ec3d79a0ac80517dc9dd9434fa2a52e063bc5b2cca1bb4 header b16f3d50ef90a39d5852c9c2e7668c7a3260607cfa9638736a8090821ba28c68
+ X 00:21:48 ethminer_frk GPU 0 gave incorrect result: target 000000005021aac611ec3d79a0ac80517dc9dd9434fa2a52e063bc5b2cca1bb4 header cc10d69f4027fadfed9e4e7f2d595d4087cf425050c052dc295acea627cfb522
+^C i 00:21:49 main     Got interrupt ...
+ i 00:21:49 main     Disconnected from 127.0.0.1:9656
+ i 00:21:49 main     Terminated!
+
+cc01d69f0427fadf
+cc10d69f4027fadf
+//2nd byte, 5th byte
+
+i 00:23:07 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:23:07 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:23:07 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:23:07 ethminer_frk Spinning up miners...
+.. 00:23:07 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:23:07 ethminer_frk Epoch : 284 Difficulty : 214.26 Gh
+ i 00:23:07 ethminer_frk Job: 5268e27b\u2026 127.0.0.1:9656
+cl 00:23:09 cl-0     OpenCL frk kernel
+.. 00:23:10 cl-0     Start search with header: 5268e27bfa610131d3f8d28c4bdbe11a22ea9fea8bc25c50cbd92dba26fff6c8 boundary: 000000000521ac0e7cea7c49adaa8e249852d689fae9c309f2a37bd5825e10e2 startNonce: 16193378287876203561
+.. 00:23:10 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16369305692452370346 as_ulong(rshift192(w.boundary)): 86092814 as 8 bytes from kejjak: e32b74cc8a6737aa 8 bytes boundary: 521ac0e
+ i 00:23:10 cl-0     Job: 5268e27b\u2026 Solution: 0xe0ba6fc1b26267a9
+.. 00:23:10 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16369305692452370346 as_ulong(rshift192(w.boundary)): 86092814 as 8 bytes from kejjak: e32b74cc8a6737aa 8 bytes boundary: 521ac0e
+ X 00:23:10 ethminer_frk GPU 0 gave incorrect result: target 000000005021ace07cea7c49adaa8e249852d689fae9c390f2a37bd5825e10e2 header c98b4c64bfb3d77fb3f448b960ade19d7a7c61f1d32d76eabf4954411a195a7d
+ i 00:23:10 cl-0     Job: 5268e27b\u2026 Solution: 0xe0ba6fc1b26267aa
+.. 00:23:10 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16369305692452370346 as_ulong(rshift192(w.boundary)): 86092814 as 8 bytes from kejjak: e32b74cc8a6737aa 8 bytes boundary: 521ac0e
+ i 00:23:10 cl-0     Job: 5268e27b\u2026 Solution: 0xe0ba6fc1b26267ab
+.. 00:23:10 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 16369305692452370346 as_ulong(rshift192(w.boundary)): 86092814 as 8 bytes from kejjak: e32b74cc8a6737aa 8 bytes boundary: 521ac0e
+ i 00:23:10 cl-0     Job: 5268e27b\u2026 Solution: 0xe0ba6fc1b26276a5
+ X 00:23:10 ethminer_frk GPU 0 gave incorrect result: target 000000005021ace07cea7c49adaa8e249852d689fae9c390f2a37bd5825e10e2 header 98e64fa4b074e417879cb1e4f37faf4c13ef642efca8eb12fef53681db3cab2f
+ X 00:23:10 ethminer_frk GPU 0 gave incorrect result: target 000000005021ace07cea7c49adaa8e249852d689fae9c390f2a37bd5825e10e2 header 797343e237d152a716553c8fbc229b3a5fbe229adaca5c402eeedcbe1a87888c
+ X 00:23:10 ethminer_frk GPU 0 gave incorrect result: target 000000005021ace07cea7c49adaa8e249852d689fae9c390f2a37bd5825e10e2 header e32b74cc8a6737aaf7267337d5f8603b543765c82f2b547f994576f3e214851b
+ m 00:23:12 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 00:23:12 main     Got interrupt ...
+ i 00:23:12 main     Disconnected from 127.0.0.1:9656
+ i 00:23:12 main     Terminated!
+
+e32b74cc8a6737aa
+e32b74cc8a6737aa
+//good
+
+i 00:24:19 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:24:19 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:24:19 ethminer_frk Spinning up miners...
+.. 00:24:19 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:24:19 ethminer_frk Epoch : 284 Difficulty : 215.52 Gh
+ i 00:24:19 ethminer_frk Job: 8f673091\u2026 127.0.0.1:9656
+cl 00:24:21 cl-0     OpenCL frk kernel
+.. 00:24:22 cl-0     Start search with header: 8f673091b0ae225de1910d5b5cfb1e491c294e0341892ee62305458e4fdd0a8b boundary: 00000000051a03c585bbdb1a0bdd7690ba75bedd3cc0a727943850131113ad83 startNonce: 7925126318004251234
+.. 00:24:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8390211551043226026 as_ulong(rshift192(w.boundary)): 85590981 as 8 bytes from kejjak: 747004f3d24f89aa 8 bytes boundary: 51a03c5
+ i 00:24:22 cl-0     Job: 8f673091\u2026 Solution: 0x6dfbb465a8be39e2
+.. 00:24:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8390211551043226026 as_ulong(rshift192(w.boundary)): 85590981 as 8 bytes from kejjak: 747004f3d24f89aa 8 bytes boundary: 51a03c5
+ i 00:24:22 cl-0     Job: 8f673091\u2026 Solution: 0x6dfbb465a8be39e3
+ X 00:24:22 ethminer_frk GPU 0 gave incorrect result: target 00000000501a30c585bbdb1ab0dd7690ba75bedd3cc0a727943850131113ad83 header da7670b286dc80a98ad8ced4f04de0a32e662bb4ecd50022547bc928aad2a9f7
+.. 00:24:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8390211551043226026 as_ulong(rshift192(w.boundary)): 85590981 as 8 bytes from kejjak: 747004f3d24f89aa 8 bytes boundary: 51a03c5
+ i 00:24:22 cl-0     Job: 8f673091\u2026 Solution: 0x6dfbb465a8be39e4
+.. 00:24:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8390211551043226026 as_ulong(rshift192(w.boundary)): 85590981 as 8 bytes from kejjak: 747004f3d24f89aa 8 bytes boundary: 51a03c5
+ i 00:24:22 cl-0     Job: 8f673091\u2026 Solution: 0x6dfbb465a8be43de
+ X 00:24:22 ethminer_frk GPU 0 gave incorrect result: target 00000000501a30c585bbdb1ab0dd7690ba75bedd3cc0a727943850131113ad83 header 68cc71d135f223673df1a36468dc2e7ca04d73f3578415df64385da2d280dac8
+ X 00:24:22 ethminer_frk GPU 0 gave incorrect result: target 00000000501a30c585bbdb1ab0dd7690ba75bedd3cc0a727943850131113ad83 header 8c75c7fe8188985a84a9c2f5b78393b7fb40e4849edd222833eae56d20fbfc41
+ X 00:24:22 ethminer_frk GPU 0 gave incorrect result: target 00000000501a30c585bbdb1ab0dd7690ba75bedd3cc0a727943850131113ad83 header 747040f3d24f89aa5fd0d4693ef4ea1efcf3ef24aa48245b24b27581ea24a6ea
+ m 00:24:24 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+
+747004f3d24f89aa
+747040f3d24f89aa
+//3d byte
+
+ i 00:25:28 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:25:28 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:25:28 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:25:28 ethminer_frk Spinning up miners...
+.. 00:25:28 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:25:28 ethminer_frk Epoch : 284 Difficulty : 216.78 Gh
+ i 00:25:28 ethminer_frk Job: aeb2699f\u2026 127.0.0.1:9656
+cl 00:25:30 cl-0     OpenCL frk kernel
+ i 00:25:31 ethminer_frk Job: cf4d95f9\u2026 127.0.0.1:9656
+.. 00:25:31 cl-0     Start search with header: cf4d95f9b1dfb2f0d577979e6c41ab94c4740b0a9041a28d606acf0f328fd663 boundary: 00000000051266e87714536b55b399e3e199f3318a3f05d51817f8161aa9e455 startNonce: 10072317910598219332
+.. 00:25:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8975236689484677170 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: 7c8e72375bc98032 8 bytes boundary: 51266e8
+ i 00:25:31 cl-0     Job: cf4d95f9\u2026 Solution: 0x8bc80fc63602ffc4
+.. 00:25:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8975236689484677170 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: 7c8e72375bc98032 8 bytes boundary: 51266e8
+ X 00:25:31 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header c3e79b8b10f5c975c61959e762ac90b67011d54410a711627d48fd63b14a8317
+ i 00:25:31 cl-0     Job: cf4d95f9\u2026 Solution: 0x8bc80fc63602ffc5
+.. 00:25:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8975236689484677170 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: 7c8e72375bc98032 8 bytes boundary: 51266e8
+ i 00:25:31 cl-0     Job: cf4d95f9\u2026 Solution: 0x8bc80fc63602ffc6
+.. 00:25:31 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 8975236689484677170 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: 7c8e72375bc98032 8 bytes boundary: 51266e8
+ i 00:25:31 cl-0     Job: cf4d95f9\u2026 Solution: 0x8bc80fc636031200
+ X 00:25:31 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header b03c85f882f06be9ffc6ad2bd69bb2b9217912193921f1bdca5051c0e71b3989
+ X 00:25:31 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header fbd132e32f6a652b78d2afe863ebb25a4873231222c8803cd06a6c8eff797c82
+ X 00:25:31 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header 7c8e72375bc980322d63cceeacd664a51abe803a152f956c46dde1e0653f6580
+^C i 00:25:32 main     Got interrupt ...
+ i 00:25:32 main     Disconnected from 127.0.0.1:9656
+ i 00:25:32 main     Terminated!
+
+7c8e72375bc98032
+7c8e72375bc98032
+//good
+
+ i 00:26:05 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:26:05 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:26:05 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:26:05 ethminer_frk Spinning up miners...
+.. 00:26:05 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:26:05 ethminer_frk Epoch : 284 Difficulty : 216.78 Gh
+ i 00:26:05 ethminer_frk Job: cf4d95f9\u2026 127.0.0.1:9656
+cl 00:26:07 cl-0     OpenCL frk kernel
+.. 00:26:08 cl-0     Start search with header: cf4d95f9b1dfb2f0d577979e6c41ab94c4740b0a9041a28d606acf0f328fd663 boundary: 00000000051266e87714536b55b399e3e199f3318a3f05d51817f8161aa9e455 startNonce: 563811285984595857
+.. 00:26:08 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12147040537561333499 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: a892f502d99cfefb 8 bytes boundary: 51266e8
+ i 00:26:08 cl-0     Job: cf4d95f9\u2026 Solution: 0x07d30f609d77d3d1
+ X 00:26:08 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header a077e0c8d3fd7ee2cce7d1c017b63ef288da58137cf16ac1e879808f5575f0a0
+.. 00:26:08 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12147040537561333499 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: a892f502d99cfefb 8 bytes boundary: 51266e8
+ i 00:26:08 cl-0     Job: cf4d95f9\u2026 Solution: 0x07d30f609d77d3d2
+.. 00:26:08 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12147040537561333499 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: a892f502d99cfefb 8 bytes boundary: 51266e8
+ i 00:26:08 cl-0     Job: cf4d95f9\u2026 Solution: 0x07d30f609d77d3d3
+.. 00:26:08 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12147040537561333499 as_ulong(rshift192(w.boundary)): 85092072 as 8 bytes from kejjak: a892f502d99cfefb 8 bytes boundary: 51266e8
+ i 00:26:08 cl-0     Job: cf4d95f9\u2026 Solution: 0x07d30f609d77ec8d
+ X 00:26:08 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header c9c1b1679fe8801bb01b1bf6ca7bfc8f70d7de74526db1adf8c4b1434d4b4cdf
+ X 00:26:08 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header e1357d53d7f7ada01f7a7aaf99232b1beba949a6f554c477ef796e1d708054c1
+ X 00:26:08 ethminer_frk GPU 0 gave incorrect result: target 00000000501266e87714536b55b399e3e199f3318a3f50d51817f8161aa9e455 header a892f520d99cfefb4169f0901b58ff4b1629262d92b6a5a5f797cab9a13e5d40
+ i 00:26:09 ethminer_frk Epoch : 284 Difficulty : 216.36 Gh
+ i 00:26:09 ethminer_frk Job: 0f00977d\u2026 127.0.0.1:9656
+^C i 00:26:09 main     Got interrupt ...
+ i 00:26:09 main     Disconnected from 127.0.0.1:9656
+
+a892f502d99cfefb
+a892f520d99cfefb
+//4th byte
+
+ i 00:27:03 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:27:03 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:27:03 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:27:03 ethminer_frk Spinning up miners...
+.. 00:27:03 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:27:03 ethminer_frk Epoch : 284 Difficulty : 218.05 Gh
+ i 00:27:03 ethminer_frk Job: cb3f521c\u2026 127.0.0.1:9656
+cl 00:27:05 cl-0     OpenCL frk kernel
+.. 00:27:06 cl-0     Start search with header: cb3f521cec5c12b56d27fb712179e25c8a62b8f97da3a2a1b87e9c4ae799c78a boundary: 00000000050ad5678b3396e43244c76451a1fa18e138dd3816a63ad21cc88845 startNonce: 2335485249995540019
+.. 00:27:06 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2926466956980155011 as_ulong(rshift192(w.boundary)): 84596071 as 8 bytes from kejjak: 289ce63139b87283 8 bytes boundary: 50ad567
+ i 00:27:06 cl-0     Job: cb3f521c\u2026 Solution: 0x20694f7600260a33
+ X 00:27:06 ethminer_frk GPU 0 gave incorrect result: target 0000000050a0d5678b3396e43244c76451a1fa18e138dd3816a63ad21cc88845 header c7a2af9d801ee65278397cb18de74065c0b52f88c3e2c0db87b4844cddee7585
+.. 00:27:06 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2926466956980155011 as_ulong(rshift192(w.boundary)): 84596071 as 8 bytes from kejjak: 289ce63139b87283 8 bytes boundary: 50ad567
+ i 00:27:06 cl-0     Job: cb3f521c\u2026 Solution: 0x20694f7600260a34
+.. 00:27:06 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2926466956980155011 as_ulong(rshift192(w.boundary)): 84596071 as 8 bytes from kejjak: 289ce63139b87283 8 bytes boundary: 50ad567
+ i 00:27:06 cl-0     Job: cb3f521c\u2026 Solution: 0x20694f7600260a35
+.. 00:27:06 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2926466956980155011 as_ulong(rshift192(w.boundary)): 84596071 as 8 bytes from kejjak: 289ce63139b87283 8 bytes boundary: 50ad567
+ i 00:27:06 cl-0     Job: cb3f521c\u2026 Solution: 0x20694f76002623ef
+ X 00:27:06 ethminer_frk GPU 0 gave incorrect result: target 0000000050a0d5678b3396e43244c76451a1fa18e138dd3816a63ad21cc88845 header a13cf4264c547caa7080c45ed1153e375239d77db63ee141752bda746470443d
+ X 00:27:06 ethminer_frk GPU 0 gave incorrect result: target 0000000050a0d5678b3396e43244c76451a1fa18e138dd3816a63ad21cc88845 header b8383ea1cc63c84dcab53f91488ba91ea568bfd1e3a7a25c5179ee43b19bb074
+ X 00:27:06 ethminer_frk GPU 0 gave incorrect result: target 0000000050a0d5678b3396e43244c76451a1fa18e138dd3816a63ad21cc88845 header 289ce63139b87283b2dce56cea272dfd78b253bb84548a134bb243e19956bdce
+^C i 00:27:08 main     Got interrupt ...
+ i 00:27:08 main     Disconnected from 127.0.0.1:9656
+ i 00:27:08 main     Terminated!
+
+289ce63139b87283
+289ce63139b87283
+//good
+
+///1
+
+ i 00:29:16 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:29:16 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:29:16 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:29:16 ethminer_frk Spinning up miners...
+.. 00:29:16 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:29:16 ethminer_frk Epoch : 284 Difficulty : 218.48 Gh
+ i 00:29:16 ethminer_frk Job: 671ede7b\u2026 127.0.0.1:9656
+cl 00:29:18 cl-0     OpenCL frk kernel
+ i 00:29:18 ethminer_frk Job: cc24fa3e\u2026 127.0.0.1:9656
+.. 00:29:19 cl-0     Start search with header: cc24fa3e2cf48cb2b6f03988a9c1dacccc0c289e3b1f2b4f373549c75a6e01c3 boundary: 0000000005085648832e9afb327c2209a6cb87caa25b12395188a5033c31eea0 startNonce: 10455355719370313845
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1125127683700495570 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f9d41aac9ed14d2 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c56a9d35
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1125127683700495570 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f9d41aac9ed14d2 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c56a99b5
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1125127683700495570 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f9d41aac9ed14d2 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c56a9d36
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1125127683700495570 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f9d41aac9ed14d2 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c56aafb1
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header 9ceded493eb18aa199de287b3f1a765b7a82eac0c4ab8057327b5ed9993eb8c0
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17743141667640116432 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f63c4d56eb1f04d0 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c62def75
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17743141667640116432 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f63c4d56eb1f04d0 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c62def76
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17743141667640116432 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f63c4d56eb1f04d0 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c62def77
+.. 00:29:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 17743141667640116432 as_ulong(rshift192(w.boundary)): 84432456 as 8 bytes from kejjak: f63c4d56eb1f04d0 8 bytes boundary: 5085648
+ i 00:29:19 cl-0     Job: cc24fa3e\u2026 Solution: 0x9118e2a1c62df731
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header 9abe78bbaedfdbb2c91578694251b0ac4eb07ef924ee21ab3aa5c5f3d3ed81a0
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header af2717a84589fca042bb72102a96374d3b20b7d6fb9b359be7ab959bc080d180
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header f09d41aac9ed14d2b3ee292c60b7e49df0a97ad03e3feaf238b068722237103a
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header 5261d7446c946c86aa367322b32ae01ef02cda93b880d386a8548347a3c9e5a0
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header ad5298f072b86f79f455e932c15d201d3ea6befd10b09efe43d0a5f199ee76b0
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header 6c16828be0b5c4552c87ed1180607025d1b7bb52c3195ae02d3f97dd62921486
+ X 00:29:19 ethminer_frk GPU 0 gave incorrect result: target 0000000050805648832e9afb327c2290a6cb87caa25b12395188a5303c31eea0 header b160524b9f4310fa9a94d29ecacee1c0ca7fc0e0e1764efba11d9067fe16daee
+ m 00:29:21 ethminer_frk 0:00 A0:F8 0.00 h - cl0 0.00
+
+f9d41aac9ed14d2
+f09d41aac9ed14d2
+
+f63c4d56eb1f04d0
+----
+
+ i 00:30:58 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:30:58 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:30:58 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:30:58 ethminer_frk Spinning up miners...
+.. 00:30:58 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:30:58 ethminer_frk Epoch : 284 Difficulty : 221.91 Gh
+ i 00:30:58 ethminer_frk Job: 72817896\u2026 127.0.0.1:9656
+cl 00:31:00 cl-0     OpenCL frk kernel
+.. 00:31:02 cl-0     Start search with header: 7281789665e3de26ca4522b440267ef7b5a1fa1fb5b7d4716e081c90c3895f91 boundary: 0000000004f4632c6d23b7176dcb50a0d11b278a9a60653d15a281bfe0571a3d startNonce: 2122619291762708307
+.. 00:31:02 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 15515884070694213330 as_ulong(rshift192(w.boundary)): 83125036 as 8 bytes from kejjak: d7537e5b09ded6d2 8 bytes boundary: 4f4632c
+ i 00:31:02 cl-0     Job: 72817896\u2026 Solution: 0x1d750effeee85a53
+.. 00:31:02 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 15515884070694213330 as_ulong(rshift192(w.boundary)): 83125036 as 8 bytes from kejjak: d7537e5b09ded6d2 8 bytes boundary: 4f4632c
+ X 00:31:02 ethminer_frk GPU 0 gave incorrect result: target 0000000040f4632c6d23b7176dcb50a0d11b278a9a60653d15a281bfe0571a3d header 003b5aaf2ee7d19047892a1c6fa9bf39106d3ba1f758e4b727f71891771a82d5
+ i 00:31:02 cl-0     Job: 72817896\u2026 Solution: 0x1d750effeee85a54
+.. 00:31:02 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 15515884070694213330 as_ulong(rshift192(w.boundary)): 83125036 as 8 bytes from kejjak: d7537e5b09ded6d2 8 bytes boundary: 4f4632c
+ i 00:31:02 cl-0     Job: 72817896\u2026 Solution: 0x1d750effeee85a55
+.. 00:31:02 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 15515884070694213330 as_ulong(rshift192(w.boundary)): 83125036 as 8 bytes from kejjak: d7537e5b09ded6d2 8 bytes boundary: 4f4632c
+ i 00:31:02 cl-0     Job: 72817896\u2026 Solution: 0x1d750effeee8678f
+ X 00:31:02 ethminer_frk GPU 0 gave incorrect result: target 0000000040f4632c6d23b7176dcb50a0d11b278a9a60653d15a281bfe0571a3d header e4b0fd1d384f2c8540ee69592900d46ee2a391c7f646d9373ee3873276abe652
+ X 00:31:02 ethminer_frk GPU 0 gave incorrect result: target 0000000040f4632c6d23b7176dcb50a0d11b278a9a60653d15a281bfe0571a3d header cf5be55b3e3c134f3edb4620d4deeac44f412bfd9a257bb3131d86a0fbbcb0c6
+ X 00:31:02 ethminer_frk GPU 0 gave incorrect result: target 0000000040f4632c6d23b7176dcb50a0d11b278a9a60653d15a281bfe0571a3d header d7537e5b90ded6d2ccbfbc94b865785913f850b5fe6880a03aefe0198196e6eb
+ m 00:31:03 ethminer_frk 0:00 A0:F4 0.00 h - cl0 0.00
+^C i 00:31:04 main     Got interrupt ...
+ i 00:31:04 main     Disconnected from 127.0.0.1:9656
+ i 00:31:04 main     Terminated!
+
+d7537e5b09ded6d2
+d7537e5b90ded6d2
+//5th byte
+
+ i 00:32:01 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:32:01 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:32:01 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:32:01 ethminer_frk Spinning up miners...
+.. 00:32:01 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:32:01 ethminer_frk Epoch : 284 Difficulty : 222.34 Gh
+ i 00:32:01 ethminer_frk Job: 9d15f533\u2026 127.0.0.1:9656
+cl 00:32:03 cl-0     OpenCL frk kernel
+.. 00:32:04 cl-0     Start search with header: 9d15f533810766338008da22a6938986fc501f3cc7443667f51eb8509d911ce4 boundary: 0000000004f1eb73cc6c13acfcdbc22ef3cf0952f310c2eb3fd89033bf21e9ce startNonce: 2964263906942395051
+.. 00:32:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2796321181093854336 as_ulong(rshift192(w.boundary)): 82963315 as 8 bytes from kejjak: 26ce874c74fffc80 8 bytes boundary: 4f1eb73
+ i 00:32:04 cl-0     Job: 9d15f533\u2026 Solution: 0x29232e5169d02dab
+ X 00:32:04 ethminer_frk GPU 0 gave incorrect result: target 0000000040f1eb73cc6c13acfcdbc22ef3cf9052f310c2eb3fd89033bf21e9ce header e29c907bbe347d703c99c6cb30dd92c2ac98d535412928e5378892a3f13071c2
+.. 00:32:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2796321181093854336 as_ulong(rshift192(w.boundary)): 82963315 as 8 bytes from kejjak: 26ce874c74fffc80 8 bytes boundary: 4f1eb73
+ i 00:32:04 cl-0     Job: 9d15f533\u2026 Solution: 0x29232e5169d02dac
+.. 00:32:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2796321181093854336 as_ulong(rshift192(w.boundary)): 82963315 as 8 bytes from kejjak: 26ce874c74fffc80 8 bytes boundary: 4f1eb73
+ i 00:32:04 cl-0     Job: 9d15f533\u2026 Solution: 0x29232e5169d02dad
+.. 00:32:04 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2796321181093854336 as_ulong(rshift192(w.boundary)): 82963315 as 8 bytes from kejjak: 26ce874c74fffc80 8 bytes boundary: 4f1eb73
+ i 00:32:04 cl-0     Job: 9d15f533\u2026 Solution: 0x29232e5169d03a27
+ X 00:32:04 ethminer_frk GPU 0 gave incorrect result: target 0000000040f1eb73cc6c13acfcdbc22ef3cf9052f310c2eb3fd89033bf21e9ce header 768c71a2fe80a0fefe275c25e8db3765868664d2a07a5666e288c083f2e8b69f
+ X 00:32:04 ethminer_frk GPU 0 gave incorrect result: target 0000000040f1eb73cc6c13acfcdbc22ef3cf9052f310c2eb3fd89033bf21e9ce header 9aa05d66a185dcec90a3f839918c7c76e08cab93c2d48da0dcfecf9b2e133acf
+ X 00:32:04 ethminer_frk GPU 0 gave incorrect result: target 0000000040f1eb73cc6c13acfcdbc22ef3cf9052f310c2eb3fd89033bf21e9ce header 26ce874c74fffc8071cf9c6681e372dfe0b49bf332d136c9e6d3b2f730bef199
+^C i 00:32:06 main     Got interrupt ...
+ i 00:32:06 main     Disconnected from 127.0.0.1:9656
+ i 00:32:06 main     Terminated!
+
+26ce874c74fffc80
+26ce874c74fffc80
+//good
+
+///keccak_ash
+
+i 00:52:19 ethminer_frk Configured pool 127.0.0.1:9656
+ i 00:52:19 ethminer_frk Selected pool 127.0.0.1:9656
+ i 00:52:19 ethminer_frk Established connection to 127.0.0.1:9656
+ i 00:52:19 ethminer_frk Spinning up miners...
+.. 00:52:19 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 00:52:19 ethminer_frk Epoch : 284 Difficulty : 240.84 Gh
+ i 00:52:19 ethminer_frk Job: 268ad12f\u2026 127.0.0.1:9656
+cl 00:52:21 cl-0     OpenCL frk kernel
+.. 00:52:21 cl-0     Start search with header: 268ad12f559df021ccf9b0a129698652aa71697cdab954296ec8a790d4f1d48d boundary: 000000000490ae2da87d0654458be5304da296f0d071b946f35e49a26edf5e3e startNonce: 8486097441112054341
+.. 00:52:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1361137981952341904 as_ulong(rshift192(w.boundary)): 76590637 as 8 bytes from kejjak: 12e3bbc8708fb790 8 bytes boundary: 490ae2d
+ i 00:52:21 cl-0     Job: 268ad12f\u2026 Solution: 0x75c4aca952d5da85
+.. 00:52:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1361137981952341904 as_ulong(rshift192(w.boundary)): 76590637 as 8 bytes from kejjak: 12e3bbc8708fb790 8 bytes boundary: 490ae2d
+ X 00:52:21 ethminer_frk GPU 0 gave incorrect result: target 000000004090ae2da87d6054458be5304da296f0d071b946f35e49a26edf5e3e header 2db74734e33645d1db25908dc079396685fc1cd9b4e29badd87c21b9db958822
+ i 00:52:21 cl-0     Job: 268ad12f\u2026 Solution: 0x75c4aca952d5da86
+.. 00:52:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1361137981952341904 as_ulong(rshift192(w.boundary)): 76590637 as 8 bytes from kejjak: 12e3bbc8708fb790 8 bytes boundary: 490ae2d
+ i 00:52:21 cl-0     Job: 268ad12f\u2026 Solution: 0x75c4aca952d5da87
+.. 00:52:21 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 1361137981952341904 as_ulong(rshift192(w.boundary)): 76590637 as 8 bytes from kejjak: 12e3bbc8708fb790 8 bytes boundary: 490ae2d
+ i 00:52:21 cl-0     Job: 268ad12f\u2026 Solution: 0x75c4aca952d65541
+ X 00:52:21 ethminer_frk GPU 0 gave incorrect result: target 000000004090ae2da87d6054458be5304da296f0d071b946f35e49a26edf5e3e header 237c8e70f71d3d8f51778920bd6dd082745eb58736b5696bd6fbcf6f40f3c6f4
+ X 00:52:21 ethminer_frk GPU 0 gave incorrect result: target 000000004090ae2da87d6054458be5304da296f0d071b946f35e49a26edf5e3e header 9045d4ca3b511cdc3e50397ad067cfd2b666b4483e92eff0a06f5fc970bd7ea8
+ X 00:52:21 ethminer_frk GPU 0 gave incorrect result: target 000000004090ae2da87d6054458be5304da296f0d071b946f35e49a26edf5e3e header 82c049c38b16936c2812908eeb2510c8dd542f79aabd66176773917430a6dbef
+^C i 00:52:23 main     Got interrupt ...
+ i 00:52:23 main     Disconnected from 127.0.0.1:9656
+ i 00:52:23 main     Terminated!
+
+///8-4
+
+i 01:09:15 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:09:15 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:09:15 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:09:15 ethminer_frk Spinning up miners...
+.. 01:09:15 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:09:15 ethminer_frk Epoch : 284 Difficulty : 235.21 Gh
+ i 01:09:15 ethminer_frk Job: a4efeda8\u2026 127.0.0.1:9656
+cl 01:09:17 cl-0     OpenCL frk kernel
+.. 01:09:18 cl-0     Start search with header: a4efeda8791231ab1cc13534f8bfd6248f6dd8bbea6fa505920b9fd1b87b0423 boundary: 0000000004acb054446f578804384f5c8ec8d4e3a055d887a38e59ffe71dbef3 startNonce: 16406900811974895754
+.. 01:09:18 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18429970276443120925 as_ulong(rshift192(w.boundary)): 78426196 as 8 bytes from kejjak: ffc46851fc66651d 8 bytes boundary: 4acb054
+ X 01:09:18 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb054446f578840384f5c8ec8d4e3a055d887a38e59ffe71dbef3 header f7559e10e04489a6d2415629a0c1b4cd8191d0acc070f17b7b6456ec5bc5572f
+ i 01:09:18 cl-0     Job: a4efeda8\u2026 Solution: 0xe3b1055c6ad4f04a
+.. 01:09:18 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18429970276443120925 as_ulong(rshift192(w.boundary)): 78426196 as 8 bytes from kejjak: ffc46851fc66651d 8 bytes boundary: 4acb054
+ i 01:09:18 cl-0     Job: a4efeda8\u2026 Solution: 0xe3b1055c6ad4f04b
+.. 01:09:18 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18429970276443120925 as_ulong(rshift192(w.boundary)): 78426196 as 8 bytes from kejjak: ffc46851fc66651d 8 bytes boundary: 4acb054
+ i 01:09:18 cl-0     Job: a4efeda8\u2026 Solution: 0xe3b1055c6ad4f04c
+.. 01:09:18 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18429970276443120925 as_ulong(rshift192(w.boundary)): 78426196 as 8 bytes from kejjak: ffc46851fc66651d 8 bytes boundary: 4acb054
+ i 01:09:18 cl-0     Job: a4efeda8\u2026 Solution: 0xe3b1055c6ad50286
+ X 01:09:18 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb054446f578840384f5c8ec8d4e3a055d887a38e59ffe71dbef3 header a3ed40aa75e8e560e6cbdd9381bd5a3d5e5010a3a850201040f5e36090143bb0
+ X 01:09:18 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb054446f578840384f5c8ec8d4e3a055d887a38e59ffe71dbef3 header b3deda48af473e9c69b488806cf9d4747d2a4892b8c578e82c1fd9a0d18bb881
+ X 01:09:18 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb054446f578840384f5c8ec8d4e3a055d887a38e59ffe71dbef3 header ffc46851fc66651db69fb472c0997aca628571eff6cda44df54da9d2d9dfbd28
+^C i 01:09:19 main     Got interrupt ...
+ i 01:09:19 main     Disconnected from 127.0.0.1:9656
+ i 01:09:19 main     Terminated!
+
+ffc46851fc66651d
+ffc46851fc66651d
+//good
+
+ i 01:10:15 ethminer_frk Job: c7505626\u2026 127.0.0.1:9656
+.. 01:10:15 cl-0     Start search with header: c75056264b26f7edbb8e62f63ff42a93fbd2c9f5acec7e29f1f76cba3d561b88 boundary: 0000000004acb3d6f6927d5b1a098b1b9becb4b26725507bd756ecfa3c7c8b4f startNonce: 5909861244405231041
+.. 01:10:15 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6006863823979680004 as_ulong(rshift192(w.boundary)): 78427094 as 8 bytes from kejjak: 535caad27a741104 8 bytes boundary: 4acb3d6
+ i 01:10:15 cl-0     Job: c7505626\u2026 Solution: 0x52040b7d709f2f41
+.. 01:10:15 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6006863823979680004 as_ulong(rshift192(w.boundary)): 78427094 as 8 bytes from kejjak: 535caad27a741104 8 bytes boundary: 4acb3d6
+ X 01:10:15 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb3d6f6927d5b1a908b1b9becb4b26725507bd756ecfa3c7c8b4f header 9cd5a1cede6c523778f22a45ec4bdbb7fd804de64330d6cd7949643edcd2c169
+ i 01:10:15 cl-0     Job: c7505626\u2026 Solution: 0x52040b7d709f2f42
+.. 01:10:15 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6006863823979680004 as_ulong(rshift192(w.boundary)): 78427094 as 8 bytes from kejjak: 535caad27a741104 8 bytes boundary: 4acb3d6
+ i 01:10:15 cl-0     Job: c7505626\u2026 Solution: 0x52040b7d709f3581
+.. 01:10:15 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 6006863823979680004 as_ulong(rshift192(w.boundary)): 78427094 as 8 bytes from kejjak: 535caad27a741104 8 bytes boundary: 4acb3d6
+ i 01:10:15 cl-0     Job: c7505626\u2026 Solution: 0x52040b7d709f473d
+ X 01:10:15 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb3d6f6927d5b1a908b1b9becb4b26725507bd756ecfa3c7c8b4f header cc65e6ac4e9856308b4690a3bb68d17064439a4b581acf87538e6af58aaa4a1a
+ X 01:10:15 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb3d6f6927d5b1a908b1b9becb4b26725507bd756ecfa3c7c8b4f header 90bf86f94cd6cf34e9dca129ab11ad687c5b5cf4bc1438cdd7c9c5e013ccb7ec
+ X 01:10:15 ethminer_frk GPU 0 gave incorrect result: target 0000000040acb3d6f6927d5b1a908b1b9becb4b26725507bd756ecfa3c7c8b4f header 535caad27a7411408f39507ee1c9e9b9dee69167ec8cdc7697fb504759e5004c
+^C i 01:10:16 main     Got interrupt ...
+ i 01:10:16 main     Disconnected from 127.0.0.1:9656
+ i 01:10:16 main     Terminated!
+
+535caad27a741104
+535caad27a741140
+//8th byte
+
+///8-8
+
+ i 01:11:58 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:11:58 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:11:58 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:11:58 ethminer_frk Spinning up miners...
+.. 01:11:58 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:11:58 ethminer_frk Epoch : 284 Difficulty : 234.74 Gh
+ i 01:11:58 ethminer_frk Job: 53735116\u2026 127.0.0.1:9656
+cl 01:12:00 cl-0     OpenCL frk kernel
+.. 01:12:01 cl-0     Start search with header: 5373511695577e8246dae57121704cf17569b450b05481edc4b41478f0390b16 boundary: 0000000004af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5901f10249 startNonce: 9347263539390990451
+.. 01:12:01 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2057727880243314888 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 1c8e849ad25200c8 8 bytes boundary: 4af113c
+ i 01:12:01 cl-0     Job: 53735116\u2026 Solution: 0x81b826aa475c58b3
+.. 01:12:01 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2057727880243314888 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 1c8e849ad25200c8 8 bytes boundary: 4af113c
+ i 01:12:01 cl-0     Job: 53735116\u2026 Solution: 0x81b826aa475c58b4
+ X 01:12:01 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header bfe76062fb9d70703e7fd715237ecc88967c2bc32079d3b970d410904776e2a9
+.. 01:12:01 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2057727880243314888 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 1c8e849ad25200c8 8 bytes boundary: 4af113c
+ i 01:12:01 cl-0     Job: 53735116\u2026 Solution: 0x81b826aa475c58b5
+.. 01:12:01 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 2057727880243314888 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 1c8e849ad25200c8 8 bytes boundary: 4af113c
+ i 01:12:01 cl-0     Job: 53735116\u2026 Solution: 0x81b826aa475c5f6f
+ X 01:12:01 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header d91637b01c18604b25b2ec10101e8f1b6e6ed26520c18dd8fedcea3845423790
+ X 01:12:01 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header ca62d14bc8d158b360c4c350b095365d6f79b1d235d9994b8937b91a3f686d9c
+ X 01:12:01 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header 1c8e849ad25200c8286fc0209791d8483a3d928ce83ae190473f5b82a72590b9
+^C i 01:12:03 main     Got interrupt ...
+ i 01:12:03 main     Disconnected from 127.0.0.1:9656
+ i 01:12:03 main     Terminated!
+
+1c8e849ad25200c8
+1c8e849ad25200c8
+//good
+
+i 01:12:40 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:12:40 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:12:40 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:12:40 ethminer_frk Spinning up miners...
+.. 01:12:40 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:12:40 ethminer_frk Epoch : 284 Difficulty : 234.74 Gh
+ i 01:12:40 ethminer_frk Job: 53735116\u2026 127.0.0.1:9656
+cl 01:12:42 cl-0     OpenCL frk kernel
+.. 01:12:43 cl-0     Start search with header: 5373511695577e8246dae57121704cf17569b450b05481edc4b41478f0390b16 boundary: 0000000004af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5901f10249 startNonce: 9139744700719696945
+.. 01:12:43 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3936597446387320796 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 36a19a853fa047dc 8 bytes boundary: 4af113c
+ i 01:12:43 cl-0     Job: 53735116\u2026 Solution: 0x7ed6e56180281631
+.. 01:12:43 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3936597446387320796 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 36a19a853fa047dc 8 bytes boundary: 4af113c
+ i 01:12:43 cl-0     Job: 53735116\u2026 Solution: 0x7ed6e56180281632
+.. 01:12:43 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3936597446387320796 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 36a19a853fa047dc 8 bytes boundary: 4af113c
+ X 01:12:43 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header 82e7603064d3127f2b347e9eeac63d191a129e743c85713838418ac0cd84e668
+ i 01:12:43 cl-0     Job: 53735116\u2026 Solution: 0x7ed6e56180281633
+.. 01:12:43 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 3936597446387320796 as_ulong(rshift192(w.boundary)): 78582076 as 8 bytes from kejjak: 36a19a853fa047dc 8 bytes boundary: 4af113c
+ i 01:12:43 cl-0     Job: 53735116\u2026 Solution: 0x7ed6e561802821ad
+ X 01:12:43 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header b7d09cc07038471af2959455e789a91ec2b69cb1e953f83e3b373a606e3c9822
+ X 01:12:43 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header f63178b79d4715ecf977e260c366f06ae5304eacaaee574dc5008e28cda63d7b
+ X 01:12:43 ethminer_frk GPU 0 gave incorrect result: target 0000000040af113c2be8cd9610fe449c73ddf1f77a75acb353e56b5910f12049 header 36a19a853fa047dc558570937ca190c6ec10969658f8c3e88d58be85fb61416f
+^C i 01:12:44 main     Got interrupt ...
+ i 01:12:44 main     Disconnected from 127.0.0.1:9656
+ i 01:12:44 main     Terminated!
+
+36a19a853fa047dc
+36a19a853fa047dc
+//good
+
+i 01:13:16 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:13:16 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:13:16 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:13:16 ethminer_frk Spinning up miners...
+.. 01:13:16 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:13:16 ethminer_frk Epoch : 284 Difficulty : 232.91 Gh
+ i 01:13:16 ethminer_frk Job: c183fb66\u2026 127.0.0.1:9656
+cl 01:13:18 cl-0     OpenCL frk kernel
+.. 01:13:19 cl-0     Start search with header: c183fb66514efb54e15ca2007a749c34fb167e2a5b864073545a7eecf1f9dfd6 boundary: 0000000004b88240acebedbd89da4f34caa891084b4897484e58ffcac3c6e943 startNonce: 3845756516019455226
+.. 01:13:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18267960470139620767 as_ulong(rshift192(w.boundary)): 79200832 as 8 bytes from kejjak: fd84d542818ccd9f 8 bytes boundary: 4b88240
+ i 01:13:19 cl-0     Job: c183fb66\u2026 Solution: 0x355edf2cf5fbc5ba
+ X 01:13:19 ethminer_frk GPU 0 gave incorrect result: target 0000000040b88240acebedbd89da4f34caa891804b4897484e58ffcac3c6e943 header 3d6af3b46787d6f46dd6ea3da5b5d4cec01c30f0f23e85d47438b834c5c2259c
+.. 01:13:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18267960470139620767 as_ulong(rshift192(w.boundary)): 79200832 as 8 bytes from kejjak: fd84d542818ccd9f 8 bytes boundary: 4b88240
+ i 01:13:19 cl-0     Job: c183fb66\u2026 Solution: 0x355edf2cf5fbc5bb
+.. 01:13:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18267960470139620767 as_ulong(rshift192(w.boundary)): 79200832 as 8 bytes from kejjak: fd84d542818ccd9f 8 bytes boundary: 4b88240
+ i 01:13:19 cl-0     Job: c183fb66\u2026 Solution: 0x355edf2cf5fbc5bc
+.. 01:13:19 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 18267960470139620767 as_ulong(rshift192(w.boundary)): 79200832 as 8 bytes from kejjak: fd84d542818ccd9f 8 bytes boundary: 4b88240
+ i 01:13:19 cl-0     Job: c183fb66\u2026 Solution: 0x355edf2cf5fbe2f6
+ X 01:13:19 ethminer_frk GPU 0 gave incorrect result: target 0000000040b88240acebedbd89da4f34caa891804b4897484e58ffcac3c6e943 header 356d2748f5f48956c5125e7d8d519999c04b407ff3f584f25e455cb5fa59b08b
+ X 01:13:19 ethminer_frk GPU 0 gave incorrect result: target 0000000040b88240acebedbd89da4f34caa891804b4897484e58ffcac3c6e943 header 178b60ad8ebc8ae150d7ef5fa4515a20a0ec8812fa517d59f4f372f47059007d
+ X 01:13:19 ethminer_frk GPU 0 gave incorrect result: target 0000000040b88240acebedbd89da4f34caa891804b4897484e58ffcac3c6e943 header fd84d542818ccd9f1c1afdfb75b8e3e0c01593e5c081221123f6152eb2a5f893
+^C i 01:13:20 main     Got interrupt ...
+ i 01:13:20 main     Disconnected from 127.0.0.1:9656
+ i 01:13:20 main     Terminated!
+
+fd84d542818ccd9f
+fd84d542818ccd9f
+//good
+
+ i 01:13:54 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:13:54 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:13:54 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:13:54 ethminer_frk Spinning up miners...
+.. 01:13:54 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:13:54 ethminer_frk Epoch : 284 Difficulty : 232.45 Gh
+ i 01:13:54 ethminer_frk Job: b4edf200\u2026 127.0.0.1:9656
+cl 01:13:56 cl-0     OpenCL frk kernel
+ i 01:13:57 ethminer_frk Epoch : 284 Difficulty : 233.36 Gh
+ i 01:13:57 ethminer_frk Job: ec18c713\u2026 127.0.0.1:9656
+.. 01:13:57 cl-0     Start search with header: ec18c713eb874f8aba52d0fea49914d819c15351f6017ef453b01a2aa6d96673 boundary: 0000000004b62986fe41e1c7840dd721215e489dada8665342ee3cc90f4ae900 startNonce: 2197251095268203135
+.. 01:13:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12437203771621080142 as_ulong(rshift192(w.boundary)): 79047046 as 8 bytes from kejjak: ac99d2ef669f7c4e 8 bytes boundary: 4b62986
+ i 01:13:57 cl-0     Job: ec18c713\u2026 Solution: 0x1e7e343ac7cca87f
+.. 01:13:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12437203771621080142 as_ulong(rshift192(w.boundary)): 79047046 as 8 bytes from kejjak: ac99d2ef669f7c4e 8 bytes boundary: 4b62986
+ i 01:13:57 cl-0     Job: ec18c713\u2026 Solution: 0x1e7e343ac7cca880
+ X 01:13:57 ethminer_frk GPU 0 gave incorrect result: target 0000000040b62986fe41e1c784d0d721215e489dada8665342ee3cc9f04ae900 header 8b5d9da052b68787df25968da5ce8ae5135dd7647a3ba93f8c54cf5aaa9ab1ac
+.. 01:13:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12437203771621080142 as_ulong(rshift192(w.boundary)): 79047046 as 8 bytes from kejjak: ac99d2ef669f7c4e 8 bytes boundary: 4b62986
+ i 01:13:57 cl-0     Job: ec18c713\u2026 Solution: 0x1e7e343ac7cca881
+.. 01:13:57 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 12437203771621080142 as_ulong(rshift192(w.boundary)): 79047046 as 8 bytes from kejjak: ac99d2ef669f7c4e 8 bytes boundary: 4b62986
+ i 01:13:57 cl-0     Job: ec18c713\u2026 Solution: 0x1e7e343ac7ccaebb
+ X 01:13:57 ethminer_frk GPU 0 gave incorrect result: target 0000000040b62986fe41e1c784d0d721215e489dada8665342ee3cc9f04ae900 header 26c7cfe5334727b78289c58e35e260ecb9816035cf1cc94c75b566ac89834723
+ X 01:13:57 ethminer_frk GPU 0 gave incorrect result: target 0000000040b62986fe41e1c784d0d721215e489dada8665342ee3cc9f04ae900 header f72e46f7deb1a0fe34f499e67a301d31d620ec628f928f4710f0de1f322bc094
+ X 01:13:57 ethminer_frk GPU 0 gave incorrect result: target 0000000040b62986fe41e1c784d0d721215e489dada8665342ee3cc9f04ae900 header ac99d2ef669f7c4e24acf7abe659aaf1a1a46a56ee80f072eba47215774e6039
+^C i 01:13:58 main     Got interrupt ...
+ i 01:13:58 main     Disconnected from 127.0.0.1:9656
+
+ac99d2ef669f7c4e
+ac99d2ef669f7c4e
+//good
+
+ i 01:14:30 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:14:30 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:14:30 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:14:30 ethminer_frk Spinning up miners...
+.. 01:14:30 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:14:30 ethminer_frk Epoch : 284 Difficulty : 235.19 Gh
+ i 01:14:30 ethminer_frk Job: dfd52700\u2026 127.0.0.1:9656
+cl 01:14:32 cl-0     OpenCL frk kernel
+.. 01:14:33 cl-0     Start search with header: dfd527007681b1843644d0f628b5d9d199efaa7c04cc3c3871da59e8c4fc4d60 boundary: 0000000004acc8ef9b276329d02493b9a3909d768f857e69637103473fb7c51e startNonce: 9208308009186621364
+.. 01:14:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11001535485341712224 as_ulong(rshift192(w.boundary)): 78432495 as 8 bytes from kejjak: 98ad4e3c3ba5bf60 8 bytes boundary: 4acc8ef
+ i 01:14:33 cl-0     Job: dfd52700\u2026 Solution: 0x7fca7b58bdf3fe74
+ X 01:14:33 ethminer_frk GPU 0 gave incorrect result: target 0000000040acc8ef9b276329d02493b9a3909d768f857e69637130473fb7c51e header 90949226b5fd9d46fdc06d7c69acd4e949217690d0e588ec5916e9e82d40c2cf
+.. 01:14:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11001535485341712224 as_ulong(rshift192(w.boundary)): 78432495 as 8 bytes from kejjak: 98ad4e3c3ba5bf60 8 bytes boundary: 4acc8ef
+ i 01:14:33 cl-0     Job: dfd52700\u2026 Solution: 0x7fca7b58bdf3fe75
+.. 01:14:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11001535485341712224 as_ulong(rshift192(w.boundary)): 78432495 as 8 bytes from kejjak: 98ad4e3c3ba5bf60 8 bytes boundary: 4acc8ef
+ i 01:14:33 cl-0     Job: dfd52700\u2026 Solution: 0x7fca7b58bdf3fe76
+.. 01:14:33 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 11001535485341712224 as_ulong(rshift192(w.boundary)): 78432495 as 8 bytes from kejjak: 98ad4e3c3ba5bf60 8 bytes boundary: 4acc8ef
+ i 01:14:33 cl-0     Job: dfd52700\u2026 Solution: 0x7fca7b58bdf41530
+ X 01:14:33 ethminer_frk GPU 0 gave incorrect result: target 0000000040acc8ef9b276329d02493b9a3909d768f857e69637130473fb7c51e header d8b04db0a94aa035636a8a90f5cfade5bd4670ebea5e658195a5eb485d7ee0e2
+ X 01:14:33 ethminer_frk GPU 0 gave incorrect result: target 0000000040acc8ef9b276329d02493b9a3909d768f857e69637130473fb7c51e header 245fe1e4d5c495d3cacf233a3229e096cc6089286edaddf330364a9e9aafa37d
+ X 01:14:33 ethminer_frk GPU 0 gave incorrect result: target 0000000040acc8ef9b276329d02493b9a3909d768f857e69637130473fb7c51e header 98ad4e3c3ba5bf6076e7ca3185ebc8fb4fa9c6f69753a1a0fe69c56c60552671
+^C i 01:14:35 main     Got interrupt ...
+ i 01:14:35 main     Disconnected from 127.0.0.1:9656
+ i 01:14:35 main     Terminated!
+
+98ad4e3c3ba5bf60
+98ad4e3c3ba5bf60
+//good
+
+i 01:15:07 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:15:07 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:15:07 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:15:07 ethminer_frk Spinning up miners...
+.. 01:15:07 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:15:07 ethminer_frk Epoch : 284 Difficulty : 236.11 Gh
+ i 01:15:07 ethminer_frk Job: e44db65f\u2026 127.0.0.1:9656
+cl 01:15:09 cl-0     OpenCL frk kernel
+.. 01:15:09 cl-0     Start search with header: e44db65f3910d9548a11f28111b3b7049eb55bfd7f99492697703298092667bf boundary: 0000000004a81fa5ed5af15d8a00d3214cae69f79bcdd7e1760f598c2d77ed1b startNonce: 15002426331068028605
+.. 01:15:09 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14900090314285412537 as_ulong(rshift192(w.boundary)): 78127013 as 8 bytes from kejjak: cec7c132603870b9 8 bytes boundary: 4a81fa5
+ i 01:15:09 cl-0     Job: e44db65f\u2026 Solution: 0xd03353430846d87d
+.. 01:15:09 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14900090314285412537 as_ulong(rshift192(w.boundary)): 78127013 as 8 bytes from kejjak: cec7c132603870b9 8 bytes boundary: 4a81fa5
+ i 01:15:09 cl-0     Job: e44db65f\u2026 Solution: 0xd03353430846d87e
+.. 01:15:09 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14900090314285412537 as_ulong(rshift192(w.boundary)): 78127013 as 8 bytes from kejjak: cec7c132603870b9 8 bytes boundary: 4a81fa5
+ i 01:15:09 cl-0     Job: e44db65f\u2026 Solution: 0xd03353430846d87f
+ X 01:15:09 ethminer_frk GPU 0 gave incorrect result: target 0000000040a81fa5ed5af15d8a00d3214cae69f79bcdd7e176f0598c2d77ed1b header 37aa5d7cdb9b24cde27bef6778aa2d1e241ae06a8a25adcbe1f18660545a8574
+.. 01:15:09 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 14900090314285412537 as_ulong(rshift192(w.boundary)): 78127013 as 8 bytes from kejjak: cec7c132603870b9 8 bytes boundary: 4a81fa5
+ i 01:15:09 cl-0     Job: e44db65f\u2026 Solution: 0xd03353430846eab9
+ X 01:15:09 ethminer_frk GPU 0 gave incorrect result: target 0000000040a81fa5ed5af15d8a00d3214cae69f79bcdd7e176f0598c2d77ed1b header 30f835375c8c8c31bbcd3ed4dc92c286f435c526193a35e1a84e68401dc3d172
+ X 01:15:09 ethminer_frk GPU 0 gave incorrect result: target 0000000040a81fa5ed5af15d8a00d3214cae69f79bcdd7e176f0598c2d77ed1b header 3cb23d971e704754b7d54cdb84bb1d161fc2a7d269796d9ababce14ec66ec664
+ X 01:15:09 ethminer_frk GPU 0 gave incorrect result: target 0000000040a81fa5ed5af15d8a00d3214cae69f79bcdd7e176f0598c2d77ed1b header cec7c132603870b91a66a49d63c5d02f1ad0fae6af8bbd9160e95277973028ca
+^C i 01:15:11 main     Got interrupt ...
+ i 01:15:11 main     Disconnected from 127.0.0.1:9656
+ i 01:15:11 main     Terminated!
+
+cec7c132603870b9
+cec7c132603870b9
+//good
+
+i 01:15:45 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:15:45 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:15:45 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:15:45 ethminer_frk Spinning up miners...
+.. 01:15:45 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:15:45 ethminer_frk Epoch : 284 Difficulty : 237.49 Gh
+ i 01:15:45 ethminer_frk Job: 5c911f82\u2026 127.0.0.1:9656
+cl 01:15:47 cl-0     OpenCL frk kernel
+.. 01:15:48 cl-0     Start search with header: 5c911f82a4917c179c0f57a237de16fec74d3775086f880b707fd2a7575797d1 boundary: 0000000004a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4602 startNonce: 7981057591442455969
+.. 01:15:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 7199207773421220095 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 63e8b953af00b0ff 8 bytes boundary: 4a12a6c
+ i 01:15:48 cl-0     Job: 5c911f82\u2026 Solution: 0x6ec269980ddcbde1
+ X 01:15:48 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header f714db3431247c32a18bf044d1eac08069d0991bfff35046c02f7ca02ff3cf3f
+.. 01:15:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 7199207773421220095 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 63e8b953af00b0ff 8 bytes boundary: 4a12a6c
+ i 01:15:48 cl-0     Job: 5c911f82\u2026 Solution: 0x6ec269980ddcbde2
+.. 01:15:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 7199207773421220095 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 63e8b953af00b0ff 8 bytes boundary: 4a12a6c
+ i 01:15:48 cl-0     Job: 5c911f82\u2026 Solution: 0x6ec269980ddcbde3
+.. 01:15:48 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 7199207773421220095 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 63e8b953af00b0ff 8 bytes boundary: 4a12a6c
+ i 01:15:48 cl-0     Job: 5c911f82\u2026 Solution: 0x6ec269980ddcd71d
+ X 01:15:48 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header 30639ce3216a39282b8f474258b0da86dfd035cbc04dcd59bd137b3bc2005cdd
+ X 01:15:48 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header 94f3989158cee4761ab290d23468a51627c8b0acc595ea79a96ccb4590dc5320
+ X 01:15:48 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header 63e8b953af00b0ff2fd9d1fdd062cdcf9c3f5e4a44a1132a87b8d4a0c1d15226
+^C i 01:15:49 main     Got interrupt ...
+ i 01:15:49 main     Disconnected from 127.0.0.1:9656
+ i 01:15:49 main     Terminated!
+
+63e8b953af00b0ff
+63e8b953af00b0ff
+//good
+
+ethminer 0.19.0
+Build: linux/release/gnu
+
+ i 01:16:19 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:16:19 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:16:19 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:16:19 ethminer_frk Spinning up miners...
+.. 01:16:19 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:16:19 ethminer_frk Epoch : 284 Difficulty : 237.49 Gh
+ i 01:16:19 ethminer_frk Job: dff8cdb1\u2026 127.0.0.1:9656
+cl 01:16:21 cl-0     OpenCL frk kernel
+.. 01:16:22 cl-0     Start search with header: dff8cdb1fa6f6d1a36fec258b8f8537650b4cc0d10eafe794324d71d0a9abe4c boundary: 0000000004a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4602 startNonce: 9537312215563979819
+.. 01:16:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9103832065442828007 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 7e574f078387cee7 8 bytes boundary: 4a12a6c
+ i 01:16:22 cl-0     Job: dff8cdb1\u2026 Solution: 0x845b56ede0af56eb
+ X 01:16:22 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header 5fe6d184cb97a4ab30e29d9b74c6a34320e07b60e5ebe9d258e0385ff61b7587
+.. 01:16:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9103832065442828007 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 7e574f078387cee7 8 bytes boundary: 4a12a6c
+ i 01:16:22 cl-0     Job: dff8cdb1\u2026 Solution: 0x845b56ede0af56ec
+.. 01:16:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9103832065442828007 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 7e574f078387cee7 8 bytes boundary: 4a12a6c
+ i 01:16:22 cl-0     Job: dff8cdb1\u2026 Solution: 0x845b56ede0af56ed
+.. 01:16:22 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9103832065442828007 as_ulong(rshift192(w.boundary)): 77671020 as 8 bytes from kejjak: 7e574f078387cee7 8 bytes boundary: 4a12a6c
+ i 01:16:22 cl-0     Job: dff8cdb1\u2026 Solution: 0x845b56ede0af6567
+ X 01:16:22 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header 83ab3b3c7d98b683813811144612524160eb3a924039ca9064a015ee7dd887d0
+ X 01:16:22 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header 7c30e2ba388a32a88cb929965c235034e3a688a629d619807ce5e5682460e959
+ X 01:16:22 ethminer_frk GPU 0 gave incorrect result: target 0000000040a12a6cd63fef19c36c8831ecee183a4646714b16699bc7948e4620 header 7e574f708387cee7e461627822389472d075d291912e10333d93584863787355
+^C i 01:16:23 main     Got interrupt ...
+ i 01:16:23 main     Disconnected from 127.0.0.1:9656
+ i 01:16:23 main     Terminated!
+
+7e574f078387cee7
+7e574f708387cee7
+//4th byte
+
+i 01:17:29 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:17:29 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:17:29 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:17:29 ethminer_frk Spinning up miners...
+.. 01:17:29 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:17:29 ethminer_frk Epoch : 284 Difficulty : 238.89 Gh
+ i 01:17:29 ethminer_frk Job: abb96a86\u2026 127.0.0.1:9656
+cl 01:17:31 cl-0     OpenCL frk kernel
+.. 01:17:32 cl-0     Start search with header: abb96a86d14a6a5c319c5cb7cc73f59d95d6e63282860e9c25f927df1cf8e63f boundary: 00000000049a41e528a9101ba4d52db0ee0549c5ba7523fb244b687c73925fe2 startNonce: 7854317287074657897
+.. 01:17:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10843089294382953898 as_ulong(rshift192(w.boundary)): 77218277 as 8 bytes from kejjak: 967a64439b8975aa 8 bytes boundary: 49a41e5
+ i 01:17:32 cl-0     Job: abb96a86\u2026 Solution: 0x6d0023f5694b81a9
+ X 01:17:32 ethminer_frk GPU 0 gave incorrect result: target 00000000409a41e528a9101ba4d52db0ee5049c5ba7523fb244b687c73925fe2 header 88e64fba3ea9aa25c0e7df9f95450050c6fdb943466b78d74ded323aa7a8b01d
+.. 01:17:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10843089294382953898 as_ulong(rshift192(w.boundary)): 77218277 as 8 bytes from kejjak: 967a64439b8975aa 8 bytes boundary: 49a41e5
+ i 01:17:32 cl-0     Job: abb96a86\u2026 Solution: 0x6d0023f5694b81aa
+.. 01:17:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10843089294382953898 as_ulong(rshift192(w.boundary)): 77218277 as 8 bytes from kejjak: 967a64439b8975aa 8 bytes boundary: 49a41e5
+ i 01:17:32 cl-0     Job: abb96a86\u2026 Solution: 0x6d0023f5694b81ab
+.. 01:17:32 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 10843089294382953898 as_ulong(rshift192(w.boundary)): 77218277 as 8 bytes from kejjak: 967a64439b8975aa 8 bytes boundary: 49a41e5
+ i 01:17:32 cl-0     Job: abb96a86\u2026 Solution: 0x6d0023f5694b8725
+ X 01:17:32 ethminer_frk GPU 0 gave incorrect result: target 00000000409a41e528a9101ba4d52db0ee5049c5ba7523fb244b687c73925fe2 header f23de54433cb841122a56fcf2d37a2b9a0efb6f2de93948ed0639eab31938f8c
+ X 01:17:32 ethminer_frk GPU 0 gave incorrect result: target 00000000409a41e528a9101ba4d52db0ee5049c5ba7523fb244b687c73925fe2 header 70682ae21097cd82719bbab0e9324334f2215685ed87bb4513a4e295e01c35b7
+ X 01:17:32 ethminer_frk GPU 0 gave incorrect result: target 00000000409a41e528a9101ba4d52db0ee5049c5ba7523fb244b687c73925fe2 header 967a6443f04da547aa7db8fd43e3472131f59c69fede31c910a2e9b2fe60d522
+^C i 01:17:33 main     Got interrupt ...
+ i 01:17:33 main     Disconnected from 127.0.0.1:9656
+ i 01:17:33 main     Terminated!
+
+967a64439b8975aa
+967a6443f04da547
+//5-8 bytes
+
+[root@corfu build]# /usr/local/bin/ethminer_frk -G -P http://127.0.0.1:9656
+
+
+ethminer 0.19.0
+Build: linux/release/gnu
+
+ i 01:19:21 ethminer_frk Configured pool 127.0.0.1:9656
+ i 01:19:21 ethminer_frk Selected pool 127.0.0.1:9656
+ i 01:19:21 ethminer_frk Established connection to 127.0.0.1:9656
+ i 01:19:21 ethminer_frk Spinning up miners...
+.. 01:19:21 cl-0     Using Pci 0000:01:00.0: Radeon RX 560 Series (OpenCL 1.2 AMD-APP (2482.3)) Memory : 3.98 GB
+ i 01:19:21 ethminer_frk Epoch : 284 Difficulty : 241.70 Gh
+ i 01:19:21 ethminer_frk Job: 8097484d\u2026 127.0.0.1:9656
+cl 01:19:23 cl-0     OpenCL frk kernel
+.. 01:19:24 cl-0     Start search with header: 8097484da5bebb6c3d2548a1b9236fb1148a946d9aa2492faaf9b4d47d789bc1 boundary: 00000000048c8c4c62be8a4b7a99e35e9d1a6828491923589b2bbc9450a26e2c startNonce: 10705778802538550137
+.. 01:19:24 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9425153637277323088 as_ulong(rshift192(w.boundary)): 76319820 as 8 bytes from kejjak: 82ccdf4be7654f50 8 bytes boundary: 48c8c4c
+ i 01:19:24 cl-0     Job: 8097484d\u2026 Solution: 0x949291196937a1f9
+.. 01:19:24 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9425153637277323088 as_ulong(rshift192(w.boundary)): 76319820 as 8 bytes from kejjak: 82ccdf4be7654f50 8 bytes boundary: 48c8c4c
+ X 01:19:24 ethminer_frk GPU 0 gave incorrect result: target 00000000408c8c4c62be8a4b7a99e35e9d1a6828491923589b2bbc9450a26e2c header 408d9e43d3fe4a607be1a7357db994e490915030f433af4e79a7b230813b7f27
+ i 01:19:24 cl-0     Job: 8097484d\u2026 Solution: 0x949291196937a1fa
+.. 01:19:24 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9425153637277323088 as_ulong(rshift192(w.boundary)): 76319820 as 8 bytes from kejjak: 82ccdf4be7654f50 8 bytes boundary: 48c8c4c
+ i 01:19:24 cl-0     Job: 8097484d\u2026 Solution: 0x949291196937a1fb
+.. 01:19:24 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 9425153637277323088 as_ulong(rshift192(w.boundary)): 76319820 as 8 bytes from kejjak: 82ccdf4be7654f50 8 bytes boundary: 48c8c4c
+ i 01:19:24 cl-0     Job: 8097484d\u2026 Solution: 0x949291196937a4b5
+ X 01:19:24 ethminer_frk GPU 0 gave incorrect result: target 00000000408c8c4c62be8a4b7a99e35e9d1a6828491923589b2bbc9450a26e2c header 558a404e3bcf2aa23bd979805a476ca0374b309de01deb22cc39d4f6dcebfc2e
+ X 01:19:24 ethminer_frk GPU 0 gave incorrect result: target 00000000408c8c4c62be8a4b7a99e35e9d1a6828491923589b2bbc9450a26e2c header 6158ff6157a0b2ef85dfc0bc2d114ce331718084ee9f905e35a267cb00b0be59
+ X 01:19:24 ethminer_frk GPU 0 gave incorrect result: target 00000000408c8c4c62be8a4b7a99e35e9d1a6828491923589b2bbc9450a26e2c header 82ccdf4be7654f505f47d3b4f0d3b027c04ecc46adb14d75c63cd63c1be28978
+^C i 01:19:25 main     Got interrupt ...
+ i 01:19:25 main     Disconnected from 127.0.0.1:9656
+ i 01:19:25 main     Terminated!
+
+82ccdf4be7654f50
+82ccdf4be7654f50
+//good
+
+/////
+/////
+[root@corfu ~]# grep -B 10 -A 10 ccepted ~/out.log
+ i 04:01:30 ethminer_frk Job: dbbf7bb3\u2026 127.0.0.1:9656
+ m 04:01:31 ethminer_frk 0:01 A0 69.25 Mh - cl0 69.25
+ m 04:01:36 ethminer_frk 0:01 A0 58.57 Mh - cl0 58.57
+ i 04:01:41 ethminer_frk Epoch : 284 Difficulty : 253.92 Gh
+ i 04:01:41 ethminer_frk Job: eba21881\u2026 127.0.0.1:9656
+ m 04:01:41 ethminer_frk 0:01 A0 69.19 Mh - cl0 69.19
+.. 04:01:42 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13786855 as_ulong(rshift192(w.boundary)): 72645942 as 8 bytes from kejjak: d25ee7 8 bytes boundary: 4547d36
+ i 04:01:42 cl-0     Job: eba21881\u2026 Solution: 0xa34acbce9e9b0d77
+ i 04:01:42 ethminer_frk Solution 0xa34acbce9e9b0d77 submitted by client.
+ i 04:01:42 ethminer_frk Solution difficulty: 1.34 
+ i 04:01:42 ethminer_frk **Accepted   1 ms. 127.0.0.1:9656
+.. 04:01:42 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13786855 as_ulong(rshift192(w.boundary)): 72645942 as 8 bytes from kejjak: d25ee7 8 bytes boundary: 4547d36
+ i 04:01:42 cl-0     Job: eba21881\u2026 Solution: 0xa34acbce9fd7ccf7
+ X 04:01:42 ethminer_frk GPU 0 gave incorrect result: target 0000000040547d3637d84b99cf70af9f5f49328233d460e7ee5dd34013161df0 header ed22dc998151e11ef9d134cc1b64398ef6a024acb0fcd9b5f0d03cdd8fa759a6
+.. 04:01:42 cl-0     Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: 13786855 as_ulong(rshift192(w.boundary)): 72645942 as 8 bytes from kejjak: d25ee7 8 bytes boundary: 4547d36
+ i 04:01:42 cl-0     Job: eba21881\u2026 Solution: 0xa34acbcea0e734b7
+ X 04:01:42 ethminer_frk GPU 0 gave incorrect result: target 0000000040547d3637d84b99cf70af9f5f49328233d460e7ee5dd34013161df0 header 22504764dfb98b358fa0c62099564e707d4c808b105997357aae80998ed39ad1
+ i 04:01:42 ethminer_frk Epoch : 284 Difficulty : 254.42 Gh
+ i 04:01:42 ethminer_frk Job: a50c3289\u2026 127.0.0.1:9656
+ i 04:01:44 ethminer_frk Epoch : 284 Difficulty : 254.92 Gh
+ i 04:01:44 ethminer_frk Job: 97a590bf\u2026 127.0.0.1:9656
+
+////

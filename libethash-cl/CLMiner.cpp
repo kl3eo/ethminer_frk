@@ -394,11 +394,11 @@ void CLMiner::workLoop() {
                 results.count = c_maxSearchResults;
             for (uint32_t i = 0; i < results.count; i++) {
                 uint64_t nonce = current.startNonce + results.gid[i];
-
+/*
     ostringstream s;
     s << "Got solution with as_ulong(as_uchar8(s[0]).s76543210) s[0] from keccak: " << results.sol_hea << " as_ulong(rshift192(w.boundary)): " << results.sol_targ << " as 8 bytes from kejjak: " << std::hex << results.sol_hea << " 8 bytes boundary: " << std::hex  << results.sol_targ;
     cextr << s.str();
-
+*/
                 Farm::f().submitProof_frk(Solution{nonce, h256(), current, chrono::steady_clock::now(), m_index});
                 ReportSolution(current.header, nonce);
             }
